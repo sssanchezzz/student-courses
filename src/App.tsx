@@ -6,11 +6,7 @@ import CoursesPage from 'pages/courses';
 import LoginPage from 'pages/login';
 import { Provider } from 'react-redux';
 
-import {
-    createBrowserRouter,
-    Navigate,
-    RouterProvider,
-} from 'react-router-dom';
+import { createBrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { store } from 'store';
 
 const globalStyles = css`
@@ -47,7 +43,26 @@ function App() {
             <Provider store={store}>
                 <Global styles={globalStyles} />
                 <Nav />
-                <RouterProvider router={router} />
+                <Routes>
+                    <Route path={Paths.Login} element={<LoginPage />} />
+                    <Route
+                        path={Paths.Home}
+                        element={
+                            <RequireAuth redirectTo={Paths.Login}>
+                                <CoursesPage />
+                            </RequireAuth>
+                        }
+                    />
+                    <Route
+                        path={Paths.CourseDetails}
+                        element={
+                            <RequireAuth redirectTo={Paths.Login}>
+                                <CourseDetailsPage />
+                            </RequireAuth>
+                        }
+                    />
+                    <Route path="*" element={<Navigate to={Paths.Home} />} />
+                </Routes>
             </Provider>
         </>
     );

@@ -5,6 +5,7 @@ import CourseCard from 'features/courses_list/components/course_card';
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { LinearProgress } from '@mui/material';
 
 const CoursesList: FC = () => {
     const navigate = useNavigate();
@@ -16,15 +17,18 @@ const CoursesList: FC = () => {
     };
 
     return (
-        <CoursesContainer>
-            {courses.map((c, i) => (
-                <StyledCourseItem
-                    key={c.id}
-                    course={c}
-                    onClick={() => handleCourseItemClick(c.id)}
-                />
-            ))}
-        </CoursesContainer>
+        <>
+            {isLoading && <LinearProgress />}
+            <CoursesContainer>
+                {courses.map((c, i) => (
+                    <StyledCourseItem
+                        key={c.id}
+                        course={c}
+                        onClick={() => handleCourseItemClick(c.id)}
+                    />
+                ))}
+            </CoursesContainer>
+        </>
     );
 };
 

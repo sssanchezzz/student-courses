@@ -1,3 +1,5 @@
+import { MOCK_DATA } from 'mock';
+
 export type APIResponse = {
     data: any;
 };
@@ -10,7 +12,7 @@ export const APIRequest = {
     get: async (path: string): Promise<APIResponse> => {
         return new Promise((resolve) => {
             delay(1000).then(() => {
-                resolve({ data: [] });
+                resolve({ data: MOCK_DATA });
             });
         });
     },

@@ -3,7 +3,6 @@ import {
     Box,
     Toolbar,
     IconButton,
-    Typography,
     Button,
     Menu,
     MenuItem,
@@ -11,23 +10,34 @@ import {
 import React, { FC } from 'react';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import styled from '@emotion/styled';
+import { useNavigate } from 'react-router-dom';
+import { Paths } from 'constants/paths';
 
 const Nav: FC = () => {
     const title = 'Courses';
+    const navigate = useNavigate();
     const userName = localStorage.getItem('user');
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
+
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget);
     };
     const handleClose = () => {
         setAnchorEl(null);
     };
+
+    const handleLogoClick = () => {
+        navigate(Paths.Home);
+    };
+
     return (
         <Box>
             <AppBar>
                 <Toolbar>
-                    <Typography variant="h5">{title.toUpperCase()}</Typography>
+                    <Button sx={{ color: 'white' }} onClick={handleLogoClick}>
+                        {title.toUpperCase()}
+                    </Button>
                     <MenuItemsContainer>
                         {userName ? (
                             <>
