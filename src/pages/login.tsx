@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { Button, LinearProgress, TextField, Typography } from '@mui/material';
 import { Paths } from 'constants/paths';
-import { useFormik } from 'formik';
+import { FormikHelpers, useFormik } from 'formik';
 import React, { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
@@ -16,7 +16,17 @@ const LoginPage: FC = () => {
         password: yup.string().required('Please enter your password'),
     });
 
-    const handleFormSubmit = () => {
+    const handleFormSubmit = (
+        values: {
+            login: string;
+            password: string;
+        },
+        formikHelpers: FormikHelpers<{
+            login: string;
+            password: string;
+        }>
+    ) => {
+        localStorage.setItem('user', values.login);
         setTimeout(() => {
             navigate(Paths.Home);
         }, 5000);

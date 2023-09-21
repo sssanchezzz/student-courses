@@ -1,4 +1,10 @@
-import { Card, CardContent, CardHeader, Typography } from '@mui/material';
+import {
+    Card,
+    CardContent,
+    CardHeader,
+    Typography,
+    styled,
+} from '@mui/material';
 import React, { FC } from 'react';
 import { Course } from 'types/course';
 import { formatDate } from 'utils/date-format';
@@ -13,7 +19,7 @@ const CourseCard: FC<Props> = ({ course, ...props }) => {
 
     return (
         <div {...props}>
-            <Card>
+            <StyledCard>
                 <CardHeader
                     title={
                         <Typography fontSize={20} fontWeight="bold">
@@ -25,9 +31,15 @@ const CourseCard: FC<Props> = ({ course, ...props }) => {
                     <Typography>{description}</Typography>
                     <Typography>{`${dates[0]} - ${dates[1]}`}</Typography>
                 </CardContent>
-            </Card>
+            </StyledCard>
         </div>
     );
 };
+
+const StyledCard = styled(Card)`
+    &:hover {
+        background-color: #e6e6e6;
+    }
+`;
 
 export default CourseCard;

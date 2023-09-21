@@ -1,11 +1,17 @@
 import { Global, css } from '@emotion/react';
+import Nav from 'components/nav';
 import { Paths } from 'constants/paths';
-import HomePage from 'pages';
 import CourseDetailsPage from 'pages/course_details';
 import CoursesPage from 'pages/courses';
 import LoginPage from 'pages/login';
-import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Provider } from 'react-redux';
+
+import {
+    createBrowserRouter,
+    Navigate,
+    RouterProvider,
+} from 'react-router-dom';
+import { store } from 'store';
 
 const globalStyles = css`
     * {
@@ -16,19 +22,46 @@ const globalStyles = css`
 `;
 
 const router = createBrowserRouter([
-    { path: Paths.Home, element: <HomePage /> },
     { path: Paths.Login, element: <LoginPage /> },
-    { path: Paths.Courses, element: <CoursesPage /> },
-    { path: Paths.CourseDetails, element: <CourseDetailsPage /> },
+    {
+        path: Paths.Home,
+        element: (
+            <RequireAuth redirectTo={Paths.Login}>
+                <CoursesPage />
+            </RequireAuth>
+        ),
+    },
+    {
+        path: Paths.CourseDetails,
+        element: (
+            <RequireAuth redirectTo={Paths.Login}>
+                <CourseDetailsPage />
+            </RequireAuth>
+        ),
+    },
 ]);
 
 function App() {
     return (
         <>
-            <Global styles={globalStyles} />
-            <RouterProvider router={router} />
+            <Provider store={store}>
+                <Global styles={globalStyles} />
+                <Nav />
+                <RouterProvider router={router} />
+            </Provider>
         </>
     );
+}
+
+function RequireAuth({
+    children,
+    redirectTo,
+}: {
+    children: JSX.Element | null;
+    redirectTo: string;
+}) {
+    let isAuthenticated = !!localStorage.getItem('user');
+    return isAuthenticated ? children : <Navigate to={redirectTo} />;
 }
 
 export default App;
