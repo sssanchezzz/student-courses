@@ -21,10 +21,13 @@ const CourseDetailsPage: FC = () => {
 
     return (
         <>
-            {isLoading && <LinearProgress />}
-            <PageContainer>
-                <CourseDetails />
-            </PageContainer>
+            {isLoading ? (
+                <LinearProgress />
+            ) : (
+                <PageContainer>
+                    <CourseDetails />
+                </PageContainer>
+            )}
         </>
     );
 };

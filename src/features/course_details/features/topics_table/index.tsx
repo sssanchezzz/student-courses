@@ -10,31 +10,68 @@ import {
     Chip,
 } from '@mui/material';
 import { isBefore } from 'date-fns';
-import React, { FC, useState } from 'react';
+import {
+    TopicSortingProperty,
+    getSortOrder,
+    getSortedTopics,
+    getSortingProperty,
+    sortTopics,
+} from 'features/course_details/features/topics_table/store';
+import React, { FC, PropsWithChildren, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { CourseTopic, PassedStatus } from 'types/course_topic';
 import { Order } from 'types/order';
 import { formatDate } from 'utils/date-format';
 
 type Props = {
-    topics: CourseTopic[];
     onTopicClick: (topic: CourseTopic) => void;
 };
 const TODAY = new Date().setHours(0, 0, 0, 0);
 
-const TopicsTable: FC<Props> = ({ topics, onTopicClick }) => {
-    const [order, setOrder] = React.useState<Order>('asc');
+type SortLabelProps = PropsWithChildren & {
+    onClick: (
+        e: React.MouseEvent<HTMLSpanElement>,
+        sortingProperty: TopicSortingProperty
+    ) => void;
+    sortingProperty: TopicSortingProperty;
+    activeSortingProperty: TopicSortingProperty;
+    order: Order;
+};
 
-    const [sortTopic, setSortTopic] =
-        useState<keyof Pick<CourseTopic, 'name' | 'dateRange'>>('name');
+const SortLabel: FC<SortLabelProps> = ({
+    children,
+    onClick,
+    sortingProperty,
+    activeSortingProperty,
+    order,
+}) => {
+    return (
+        <TableSortLabel
+            active={activeSortingProperty === sortingProperty}
+            onClick={(e) => onClick(e, sortingProperty)}
+            direction={
+                activeSortingProperty === sortingProperty ? order : 'asc'
+            }
+        >
+            {children}
+        </TableSortLabel>
+    );
+};
+
+const TopicsTable: FC<Props> = ({ onTopicClick }) => {
+    const topics = useSelector(getSortedTopics);
+    const dispatch = useDispatch();
+    const order = useSelector(getSortOrder);
+    const sortingProperty = useSelector(getSortingProperty);
 
     const handleRequestSort = (
         event: React.MouseEvent<unknown>,
         property: keyof Pick<CourseTopic, 'name' | 'dateRange'>
     ) => {
-        const isAsc = sortTopic === property && order === 'asc';
+        const isAsc = sortingProperty === property && order === 'asc';
+        const sortOrder = isAsc ? 'desc' : 'asc';
 
-        setOrder(isAsc ? 'desc' : 'asc');
-        setSortTopic(property);
+        dispatch(sortTopics(property, sortOrder));
     };
 
     return (
@@ -43,28 +80,24 @@ const TopicsTable: FC<Props> = ({ topics, onTopicClick }) => {
                 <TableHead>
                     <TableRow>
                         <TableCell sortDirection={order}>
-                            <TableSortLabel
-                                active={sortTopic === 'name'}
-                                onClick={(e) => handleRequestSort(e, 'name')}
-                                direction={
-                                    sortTopic === 'name' ? order : 'desc'
-                                }
+                            <SortLabel
+                                activeSortingProperty={sortingProperty}
+                                sortingProperty="name"
+                                onClick={handleRequestSort}
+                                order={order}
                             >
                                 Topic
-                            </TableSortLabel>
+                            </SortLabel>
                         </TableCell>
                         <TableCell sortDirection={order}>
-                            <TableSortLabel
-                                active={sortTopic === 'dateRange'}
-                                onClick={(e) =>
-                                    handleRequestSort(e, 'dateRange')
-                                }
-                                direction={
-                                    sortTopic === 'dateRange' ? order : 'desc'
-                                }
+                            <SortLabel
+                                activeSortingProperty={sortingProperty}
+                                sortingProperty="dateRange"
+                                onClick={handleRequestSort}
+                                order={order}
                             >
                                 When
-                            </TableSortLabel>
+                            </SortLabel>
                         </TableCell>
                         <TableCell>Description</TableCell>
                         <TableCell>Type</TableCell>

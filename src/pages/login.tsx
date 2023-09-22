@@ -29,7 +29,7 @@ const LoginPage: FC = () => {
         localStorage.setItem('user', values.login);
         setTimeout(() => {
             navigate(Paths.Home);
-        }, 5000);
+        }, 1000);
     };
 
     const formik = useFormik({
@@ -39,45 +39,57 @@ const LoginPage: FC = () => {
     });
 
     return (
-        <InputContainer>
-            <Typography>Login</Typography>
+        <>
+            {formik.isSubmitting && <LinearProgress />}
 
-            <Form onSubmit={formik.handleSubmit}>
-                <TextInput
-                    fullWidth
-                    id="login"
-                    name="login"
-                    label="Login"
-                    type="text"
-                    value={formik.values.login}
-                    onChange={formik.handleChange}
-                    onBlur={formik.handleBlur}
-                    error={formik.touched.login && Boolean(formik.errors.login)}
-                    helperText={formik.touched.login && formik.errors.login}
-                />
-                <TextInput
-                    fullWidth
-                    id="password"
-                    name="password"
-                    label="Password"
-                    type="password"
-                    value={formik.values.password}
-                    onChange={formik.handleChange}
-                    onBlur={formik.handleBlur}
-                    error={
-                        formik.touched.password &&
-                        Boolean(formik.errors.password)
-                    }
-                    helperText={
-                        formik.touched.password && formik.errors.password
-                    }
-                />
-                {formik.isSubmitting && <LinearProgress />}
-                <Button variant="contained" type="submit">
-                    Login
-                </Button>
-            </Form>
-        </InputContainer>
+            <InputContainer>
+                <Typography>Login</Typography>
+
+                <Form onSubmit={formik.handleSubmit}>
+                    <TextInput
+                        fullWidth
+                        id="login"
+                        name="login"
+                        label="Login"
+                        type="text"
+                        value={formik.values.login}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        error={
+                            formik.touched.login && Boolean(formik.errors.login)
+                        }
+                        helperText={formik.touched.login && formik.errors.login}
+                        disabled={formik.isSubmitting}
+                    />
+                    <TextInput
+                        fullWidth
+                        id="password"
+                        name="password"
+                        label="Password"
+                        type="password"
+                        value={formik.values.password}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        error={
+                            formik.touched.password &&
+                            Boolean(formik.errors.password)
+                        }
+                        helperText={
+                            formik.touched.password && formik.errors.password
+                        }
+                        disabled={formik.isSubmitting}
+                    />
+
+                    <Button
+                        variant="contained"
+                        type="submit"
+                        disabled={formik.isSubmitting}
+                    >
+                        Login
+                    </Button>
+                </Form>
+            </InputContainer>
+        </>
     );
 };
 

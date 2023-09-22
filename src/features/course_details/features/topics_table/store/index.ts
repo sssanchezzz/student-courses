@@ -3,20 +3,32 @@ import {
     createAction,
     createSlice,
 } from '@reduxjs/toolkit';
+import { isAfter, isBefore } from 'date-fns';
+import { fetchCourseSucceeded } from 'features/course_details/store';
 import { RootState } from 'store';
 import { CourseTopic } from 'types/course_topic';
 import { Order } from 'types/order';
 
-type SortingProperty = keyof Pick<CourseTopic, 'name' | 'dateRange'>;
+export type TopicSortingProperty = keyof Pick<
+    CourseTopic,
+    'name' | 'dateRange'
+>;
+
+type DateArg = string | number | Date;
+
 type TopicsTableState = {
-    sortingProperty: SortingProperty;
+    sortingProperty: TopicSortingProperty;
+    filterQuery: string;
     order: Order;
+    _topics: CourseTopic[];
     topics: CourseTopic[];
 };
 
 const initialState: TopicsTableState = {
     sortingProperty: 'dateRange',
+    filterQuery: '',
     order: 'asc',
+    _topics: [],
     topics: [],
 };
 
@@ -24,7 +36,7 @@ const initialState: TopicsTableState = {
 
 export const sortTopics = createAction(
     'SORT_TOPICS',
-    (sortingProperty: SortingProperty, order: Order) => ({
+    (sortingProperty: TopicSortingProperty, order: Order) => ({
         payload: {
             sortingProperty,
             order,
@@ -32,22 +44,75 @@ export const sortTopics = createAction(
     })
 );
 
+export const filterTopics = createAction(
+    'FILTER_TOPICS',
+    (filterQuery: string) => ({ payload: { filterQuery } })
+);
+
 // selectors
 
 export const getSortedTopics = (state: RootState) => state.sort_topics.topics;
+
+export const getFilterQuery = (state: RootState) =>
+    state.sort_topics.filterQuery;
+
+export const getSortOrder = (state: RootState) => state.sort_topics.order;
+
+export const getSortingProperty = (state: RootState) =>
+    state.sort_topics.sortingProperty;
 
 // reducer
 
 const sortTopicsReducer = (
     builder: ActionReducerMapBuilder<TopicsTableState>
 ) => {
-    builder.addCase(sortTopics, (state, action) => {
-        return {
-            ...state,
-            order: action.payload.order,
-            sortingProperty: action.payload.sortingProperty,
-        };
-    });
+    builder
+        .addCase(fetchCourseSucceeded, (state, action) => {
+            const comparator = getDateComparator(state.order);
+
+            const sortedTopics = [...action.payload.course.topics].sort(
+                (a, b) => comparator(a, b)
+            );
+            return {
+                ...state,
+                _topics: sortedTopics,
+                topics: sortedTopics,
+            };
+        })
+        .addCase(sortTopics, (state, action) => {
+            const comparator =
+                action.payload.sortingProperty === 'name'
+                    ? getComparator(action.payload.order)
+                    : getDateComparator(action.payload.order);
+
+            const sortedTopics = [...state._topics].sort(comparator);
+            return {
+                ...state,
+                order: action.payload.order,
+                sortingProperty: action.payload.sortingProperty,
+                topics: sortedTopics,
+            };
+        })
+        .addCase(filterTopics, (state, action) => {
+            const comparator =
+                state.sortingProperty === 'name'
+                    ? getComparator(state.order)
+                    : getDateComparator(state.order);
+
+            const filteredTopics = [...state._topics]
+                .filter((topic) =>
+                    topic.name
+                        .toLowerCase()
+                        .includes(action.payload.filterQuery.toLowerCase())
+                )
+                .sort(comparator);
+
+            return {
+                ...state,
+                filterQuery: action.payload.filterQuery,
+                topics: filteredTopics,
+            };
+        });
 };
 
 // slice
@@ -58,3 +123,52 @@ export const sortTopicsSlice = createSlice({
     reducers: {},
     extraReducers: sortTopicsReducer,
 });
+
+// helpers
+
+function getComparator(order: Order) {
+    return function (
+        a: CourseTopic,
+        b: CourseTopic,
+        orderBy: keyof CourseTopic = 'name'
+    ) {
+        return order === 'asc'
+            ? ascendingComparator(a, b, orderBy)
+            : -ascendingComparator(a, b, orderBy);
+    };
+}
+
+function getDateComparator(order: Order) {
+    return function (a: CourseTopic, b: CourseTopic) {
+        return order === 'asc'
+            ? ascendingDateComparator(a, b)
+            : -ascendingDateComparator(a, b);
+    };
+}
+
+function ascendingComparator(
+    a: CourseTopic,
+    b: CourseTopic,
+    orderBy: keyof CourseTopic
+) {
+    if (b[orderBy] < a[orderBy]) {
+        return 1;
+    }
+    if (b[orderBy] > a[orderBy]) {
+        return -1;
+    }
+    return 0;
+}
+
+function ascendingDateComparator(a: CourseTopic, b: CourseTopic) {
+    const dateA = new Date(a.dateRange[0] as DateArg);
+    const dateB = new Date(b.dateRange[0] as DateArg);
+
+    if (isAfter(dateA, dateB)) {
+        return 1;
+    }
+    if (isBefore(dateA, dateB)) {
+        return -1;
+    }
+    return 0;
+}
