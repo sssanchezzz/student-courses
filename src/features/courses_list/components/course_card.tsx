@@ -12,6 +12,9 @@ import { formatDate } from 'utils/date-format';
 type Props = {
     course: Omit<Course, 'id'>;
 } & React.HTMLAttributes<HTMLDivElement>;
+// type Props = {
+//     course: Course;
+// } & React.HTMLAttributes<HTMLDivElement>;
 
 const CourseCard: FC<Props> = ({ course, ...props }) => {
     const { name, description, date } = course;
@@ -28,7 +31,7 @@ const CourseCard: FC<Props> = ({ course, ...props }) => {
                     }
                 />
                 <CardContent>
-                    <Typography>{description}</Typography>
+                    <Description>{description}</Description>
                     <Typography>{`${dates[0]} - ${dates[1]}`}</Typography>
                 </CardContent>
             </StyledCard>
@@ -37,9 +40,20 @@ const CourseCard: FC<Props> = ({ course, ...props }) => {
 };
 
 const StyledCard = styled(Card)`
+    height: 100%;
     &:hover {
         background-color: #e6e6e6;
     }
+`;
+
+const Description = styled(Typography)`
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-bottom: 20px;
 `;
 
 export default CourseCard;

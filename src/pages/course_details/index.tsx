@@ -1,36 +1,29 @@
 import styled from '@emotion/styled';
-import { FilterList } from '@mui/icons-material';
-import { IconButton, LinearProgress, Toolbar, Typography } from '@mui/material';
-import { MOCK_DATA } from 'mock';
-import TopicsTable from 'pages/course_details/components/topics_table';
-import React, { FC } from 'react';
-
-const title = 'Course Topics';
+import { LinearProgress } from '@mui/material';
+import { FC, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import {
+    fetchCourse,
+    getCourse,
+    getCourseLoading,
+} from 'features/course_details/store';
+import CourseDetails from 'features/course_details';
 
 const CourseDetailsPage: FC = () => {
-    const course = MOCK_DATA[1];
-    const isLoading = true;
+    const params = useParams();
+    const dispatch = useDispatch();
+    const course = useSelector(getCourse);
+    const isLoading = useSelector(getCourseLoading);
+    useEffect(() => {
+        dispatch(fetchCourse(params['id']!));
+    }, []);
 
     return (
         <>
             {isLoading && <LinearProgress />}
             <PageContainer>
-                <Typography variant="h3" fontWeight="500">
-                    {course.name.toUpperCase()}
-                </Typography>
-                <Typography>{course.description}</Typography>
-
-                <Toolbar disableGutters>
-                    <ToolbaritemsContainer>
-                        <Typography variant="h5">
-                            {title.toUpperCase()}
-                        </Typography>
-                        <IconButton>
-                            <FilterList />
-                        </IconButton>
-                    </ToolbaritemsContainer>
-                </Toolbar>
-                <TopicsTable topics={course.topics} />
+                <CourseDetails />
             </PageContainer>
         </>
     );
@@ -39,13 +32,6 @@ const CourseDetailsPage: FC = () => {
 const PageContainer = styled.div`
     width: 80%;
     margin: 0 auto;
-`;
-
-const ToolbaritemsContainer = styled.div`
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
 `;
 
 export default CourseDetailsPage;

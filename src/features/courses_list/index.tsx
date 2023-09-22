@@ -19,6 +19,7 @@ const CoursesList: FC = () => {
     return (
         <>
             {isLoading && <LinearProgress />}
+
             <CoursesContainer>
                 {courses.map((c, i) => (
                     <StyledCourseItem
@@ -33,16 +34,13 @@ const CoursesList: FC = () => {
 };
 
 const CoursesContainer = styled.div`
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
 `;
 
 const StyledCourseItem = styled(CourseCard)`
-    flex-grow: 0;
-    max-width: 33.3%;
-    flex-basis: 33.3%;
-    min-width: 300px;
     padding: 5px;
     cursor: pointer;
 `;

@@ -6,15 +6,18 @@ import {
 import { RootState } from 'store';
 import { Course } from 'types/course';
 import { call, put, takeEvery } from 'redux-saga/effects';
-import { APIRequest, APIResponse } from 'services/api_request';
+import { APIResponse } from 'services/api_request';
+import coursesService from 'services/courses_service';
 type CoursesState = {
     courses: Course[];
     isLoading: boolean;
+    selectedCourseId: null | string;
 };
 
 const initialState: CoursesState = {
     courses: [],
     isLoading: false,
+    selectedCourseId: null,
 };
 
 // actions
@@ -35,6 +38,15 @@ export const fetchCoursesFailed = createAction('FETCH_COURSES_FAILED');
 export const getCourses = (state: RootState) => state.courses.courses;
 
 export const getCoursesLoading = (state: RootState) => state.courses.isLoading;
+
+export const getCourseTopics = (state: RootState) => {
+    if (state.courses.courses.length > 0 && state.courses.selectedCourseId) {
+        const course = state.courses.courses.find(
+            (course) => course.id === state.courses.selectedCourseId
+        );
+        return course ? course.topics : [];
+    }
+};
 
 // reducer
 
@@ -58,17 +70,6 @@ const coursesReducer = (builder: ActionReducerMapBuilder<CoursesState>) => {
         });
 };
 
-// request
-
-async function getCoursesRequest(userId: string): Promise<APIResponse> {
-    try {
-        const response = await APIRequest.get(`/courses/${userId}`);
-        return response.data;
-    } catch (err) {
-        throw err;
-    }
-}
-
 // saga
 
 export function* coursesSaga() {
@@ -76,10 +77,15 @@ export function* coursesSaga() {
         fetchCourses.type,
         function* (action: ReturnType<typeof fetchCourses>): Generator {
             try {
-                const response = yield call(getCoursesRequest, 'courses');
+                const response = yield call([
+                    coursesService,
+                    coursesService.getAll,
+                ]);
+
+                const data = (response as APIResponse).data;
                 yield put({
                     type: fetchCoursesSucceeded.type,
-                    payload: { courses: response },
+                    payload: { courses: data },
                 });
             } catch (err) {
                 yield put({ type: fetchCoursesFailed.type });

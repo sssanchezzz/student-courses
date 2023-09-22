@@ -4,7 +4,6 @@ export type CourseTopic = {
     id: string;
     name: string;
     description: string;
-    status: PassedStatus;
     dateRange: Tuple<Date>;
     type: CourseTopicType;
 };
