@@ -1,0 +1,4622 @@
+[
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 0-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 0-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 0-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 0-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 0-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 0-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 0-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 0-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 0-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 0-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 0-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 0-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 0-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 0-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 0-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 0-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 0-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 0-topic-4: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 0-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 0-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 0-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-0",
+        "topicId": "course-0-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 0-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 1-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 1-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 1-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 1-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 1-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 1-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 1-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 1-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 1-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 1-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 1-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 1-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 1-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 1-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 1-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 1-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-1",
+        "topicId": "course-1-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 1-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 2-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 2-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 2-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 2-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 2-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 2-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 2-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 2-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 2-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 2-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 2-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 2-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 2-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 2-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 2-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 2-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 2-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 2-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 2-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-2",
+        "topicId": "course-2-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 2-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 3-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 3-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 3-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 3-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 3-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 3-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 3-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 3-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 3-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 3-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 3-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 3-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 3-topic-4: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 3-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 3-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 3-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-3",
+        "topicId": "course-3-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 3-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 4-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 4-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 4-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 4-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 4-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 4-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 4-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 4-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 4-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 4-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-4",
+        "topicId": "course-4-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 4-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 5-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 5-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 5-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 5-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 5-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 5-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 5-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 5-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 5-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 5-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 5-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 5-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 5-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-5",
+        "topicId": "course-5-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 5-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 6-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 6-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 6-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 6-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 6-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 6-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 6-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 6-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-6",
+        "topicId": "course-6-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 6-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 7-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 7-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 7-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 7-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 7-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 7-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 7-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 7-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 7-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 7-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 7-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 7-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-7",
+        "topicId": "course-7-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 7-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 8-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 8-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 8-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 8-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 8-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 8-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-8",
+        "topicId": "course-8-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 8-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 9-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 9-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 9-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 9-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 9-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 9-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 9-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 9-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 9-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 9-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 9-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 9-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 9-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 9-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-9",
+        "topicId": "course-9-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 9-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 10-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 10-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 10-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 10-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 10-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 10-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 10-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 10-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 10-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 10-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-10",
+        "topicId": "course-10-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 10-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 11-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 11-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 11-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 11-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 11-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 11-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 11-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 11-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 11-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 11-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 11-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 11-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 11-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-4: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 11-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 11-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 11-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 11-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 11-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 11-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-11",
+        "topicId": "course-11-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 11-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 12-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 12-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 12-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 12-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 12-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 12-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 12-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 12-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 12-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 12-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 12-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 12-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 12-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 12-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 12-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 12-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 12-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 12-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-12",
+        "topicId": "course-12-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 12-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 13-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 13-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 13-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 13-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 13-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 13-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 13-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 13-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 13-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 13-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 13-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 13-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 13-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 13-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 13-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 13-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 13-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 13-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 13-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-13",
+        "topicId": "course-13-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 13-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 14-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 14-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 14-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 14-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 14-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 14-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 14-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 14-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 14-topic-4: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 14-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 14-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-14",
+        "topicId": "course-14-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 14-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 15-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 15-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 15-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 15-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 15-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 15-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 15-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 15-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 15-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 15-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 15-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 15-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 15-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 15-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 15-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-15",
+        "topicId": "course-15-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 15-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 16-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 16-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 16-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 16-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 16-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 16-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 16-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 16-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 16-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-16",
+        "topicId": "course-16-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 16-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 17-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 17-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 17-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 17-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 17-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 17-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 17-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 17-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 17-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 17-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-17",
+        "topicId": "course-17-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 17-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 18-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 18-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 18-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 18-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 18-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 18-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 18-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 18-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 18-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 18-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 18-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 18-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 18-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-18",
+        "topicId": "course-18-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 18-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 19-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 19-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 19-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 19-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 19-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 19-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-5: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-19",
+        "topicId": "course-19-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 19-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-1: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-1: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-1: I need more practice on this one."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 20-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-2",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 20-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 20-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 20-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 20-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 20-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 20-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 20-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-20",
+        "topicId": "course-20-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 20-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-0: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-0: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-3: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 21-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-4: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-4: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-4: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 21-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 21-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-5: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 21-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-21",
+        "topicId": "course-21-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 21-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 22-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 22-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 22-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 22-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 22-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 22-topic-2: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 22-topic-2: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 22-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 22-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 22-topic-2: I need more practice on this one."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-3",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 22-topic-3: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 22-topic-3: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 22-topic-3: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 22-topic-3: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 22-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 22-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 22-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 22-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 22-topic-5: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-22",
+        "topicId": "course-22-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 22-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 23-topic-0: I need more practice on this one."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 23-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-1",
+        "notes": "User 2's note on 23-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-0: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-0",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-0: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 23-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 23-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-1",
+        "userId": "user-2",
+        "notes": "User 3's note on 23-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-1",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-1: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-1: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-1",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-1: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 23-topic-2: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-2: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 23-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 23-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-3: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-3",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 23-topic-4: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 23-topic-4: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 23-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-4: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 23-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 23-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 23-topic-5: I found a useful resource related to this topic."
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 23-topic-5: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-23",
+        "topicId": "course-23-topic-5",
+        "userId": "user-4",
+        "notes": "User 5's note on 23-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 24-topic-0: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-0",
+        "userId": "user-0",
+        "notes": "User 1's note on 24-topic-0: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 24-topic-0: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-0",
+        "userId": "user-2",
+        "notes": "User 3's note on 24-topic-0: I enjoyed learning about this!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-1",
+        "userId": "user-0",
+        "notes": "User 1's note on 24-topic-1: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-1: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-1",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-1: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-2",
+        "userId": "user-0",
+        "notes": "User 1's note on 24-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-2: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-2",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-2: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-2",
+        "userId": "user-2",
+        "notes": "User 3's note on 24-topic-2: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-2",
+        "userId": "user-4",
+        "notes": "User 5's note on 24-topic-2: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-3",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-3: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 24-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-3",
+        "userId": "user-2",
+        "notes": "User 3's note on 24-topic-3: I need more practice on this one."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-3",
+        "userId": "user-3",
+        "notes": "User 4's note on 24-topic-3: Great explanation in this topic!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-4",
+        "userId": "user-0",
+        "notes": "User 1's note on 24-topic-4: I need more practice on this one."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-4: I recommend watching this video for extra clarity."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-4",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-4: Can someone help me understand this better?"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-4",
+        "userId": "user-4",
+        "notes": "User 5's note on 24-topic-4: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-5",
+        "userId": "user-0",
+        "notes": "User 1's note on 24-topic-5: I'm looking for a study group for this topic."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-5: I struggled a bit with this, but I got it eventually."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-5",
+        "userId": "user-1",
+        "notes": "User 2's note on 24-topic-5: I need more practice on this one."
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-5",
+        "userId": "user-2",
+        "notes": "User 3's note on 24-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 24-topic-5: This topic was really helpful!"
+    },
+    {
+        "courseId": "course-24",
+        "topicId": "course-24-topic-5",
+        "userId": "user-3",
+        "notes": "User 4's note on 24-topic-5: Great explanation in this topic!"
+    }
+]

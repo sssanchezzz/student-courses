@@ -1,5 +1,5 @@
 import { delay } from 'utils/delay';
-import db from 'db_courses.json';
+import db from 'db/courses.json';
 export type APIResponse = {
     data: any;
 };

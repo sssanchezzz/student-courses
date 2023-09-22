@@ -48,7 +48,7 @@ const CourseDetails: FC = () => {
                 <Typography>{course.description}</Typography>
             </DescriptionContainer>
 
-            <Toolbar>
+            <Toolbar disableGutters>
                 <ToolbarItemsContainer>
                     <Typography variant="h5">{title.toUpperCase()}</Typography>
                     <FilterContainer>

@@ -3,11 +3,13 @@ import Nav from 'components/nav';
 import { Paths } from 'constants/paths';
 import CourseDetailsPage from 'pages/course_details';
 import CoursesPage from 'pages/courses';
-import LoginPage from 'pages/login';
-import { Provider } from 'react-redux';
+import LoginPage from 'features/auth';
+import { Provider, useSelector } from 'react-redux';
 
-import { createBrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import { store } from 'store';
+import { getIsUserLoggedIn } from 'features/auth/store/login';
+import { ThemeOptions, ThemeProvider, createTheme } from '@mui/material';
 
 const globalStyles = css`
     * {
@@ -17,52 +19,49 @@ const globalStyles = css`
     }
 `;
 
-const router = createBrowserRouter([
-    { path: Paths.Login, element: <LoginPage /> },
-    {
-        path: Paths.Home,
-        element: (
-            <RequireAuth redirectTo={Paths.Login}>
-                <CoursesPage />
-            </RequireAuth>
-        ),
+const theme = createTheme({
+    palette: {
+        mode: 'light',
+        primary: {
+            main: '#ffab00',
+        },
+        secondary: {
+            main: '#f50057',
+        },
     },
-    {
-        path: Paths.CourseDetails,
-        element: (
-            <RequireAuth redirectTo={Paths.Login}>
-                <CourseDetailsPage />
-            </RequireAuth>
-        ),
-    },
-]);
+});
 
 function App() {
     return (
         <>
             <Provider store={store}>
                 <Global styles={globalStyles} />
-                <Nav />
-                <Routes>
-                    <Route path={Paths.Login} element={<LoginPage />} />
-                    <Route
-                        path={Paths.Home}
-                        element={
-                            <RequireAuth redirectTo={Paths.Login}>
-                                <CoursesPage />
-                            </RequireAuth>
-                        }
-                    />
-                    <Route
-                        path={Paths.CourseDetails}
-                        element={
-                            <RequireAuth redirectTo={Paths.Login}>
-                                <CourseDetailsPage />
-                            </RequireAuth>
-                        }
-                    />
-                    <Route path="*" element={<Navigate to={Paths.Home} />} />
-                </Routes>
+                <ThemeProvider theme={theme}>
+                    <Nav />
+                    <Routes>
+                        <Route path={Paths.Login} element={<LoginPage />} />
+                        <Route
+                            path={Paths.Home}
+                            element={
+                                <RequireAuth redirectTo={Paths.Login}>
+                                    <CoursesPage />
+                                </RequireAuth>
+                            }
+                        />
+                        <Route
+                            path={Paths.CourseDetails}
+                            element={
+                                <RequireAuth redirectTo={Paths.Login}>
+                                    <CourseDetailsPage />
+                                </RequireAuth>
+                            }
+                        />
+                        <Route
+                            path="*"
+                            element={<Navigate to={Paths.Home} />}
+                        />
+                    </Routes>
+                </ThemeProvider>
             </Provider>
         </>
     );
@@ -75,7 +74,7 @@ function RequireAuth({
     children: JSX.Element | null;
     redirectTo: string;
 }) {
-    let isAuthenticated = !!localStorage.getItem('user');
+    let isAuthenticated = useSelector(getIsUserLoggedIn);
     return isAuthenticated ? children : <Navigate to={redirectTo} />;
 }
 

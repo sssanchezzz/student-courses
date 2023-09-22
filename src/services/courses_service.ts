@@ -1,6 +1,9 @@
-import db from 'db_courses.json';
+import db from 'db/courses.json';
 import { APIResponse } from 'services/api_request';
+import usersService from 'services/user_service';
 import { IAPIService } from 'types/api_service';
+import { Course } from 'types/course';
+import { Tuple } from 'types/tuple';
 import { delay } from 'utils/delay';
 
 class CoursesService implements IAPIService<APIResponse> {
@@ -21,6 +24,37 @@ class CoursesService implements IAPIService<APIResponse> {
             });
         });
     }
+
+    getByUserId(userId: string): Promise<Course[] | null> {
+        return new Promise((resolve) => {
+            delay(1000).then(() => {
+                usersService.getById(userId).then((res) => {
+                    if (res === null) {
+                        resolve(null);
+                        return;
+                    }
+
+                    const courses = db
+                        .filter((course) => res.courses.includes(course.id))
+                        .map((courses) => ({
+                            ...courses,
+                            date: courses.date.map(
+                                (d) => new Date(d)
+                            ) as Tuple<Date>,
+                            topics: courses.topics.map((t) => ({
+                                ...t,
+                                dateRange: t.dateRange.map(
+                                    (d) => new Date(d)
+                                ) as Tuple<Date>,
+                            })),
+                        })) as Course[];
+
+                    resolve(courses);
+                });
+            });
+        });
+    }
+
     async getAll(): Promise<APIResponse> {
         return new Promise((resolve) => {
             delay(1000).then(() => {

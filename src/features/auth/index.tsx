@@ -1,20 +1,43 @@
 import styled from '@emotion/styled';
-import { Button, LinearProgress, TextField, Typography } from '@mui/material';
+import {
+    Button,
+    LinearProgress,
+    TextField,
+    Toolbar,
+    Typography,
+    styled as styledMUI,
+} from '@mui/material';
 import { Paths } from 'constants/paths';
+import {
+    getErrorMessage,
+    getIsLoggingIn,
+    getIsUserLoggedIn,
+    loginUser,
+} from 'features/auth/store/login';
 import { FormikHelpers, useFormik } from 'formik';
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 
 const LoginPage: FC = () => {
     const navigate = useNavigate();
-
+    const dispatch = useDispatch();
     const initialValues = { login: '', password: '' };
+    const isLoggedIn = useSelector(getIsUserLoggedIn);
+    const isLoading = useSelector(getIsLoggingIn);
+    const errorMessage = useSelector(getErrorMessage);
 
     const validationSchema = yup.object({
         login: yup.string().email().required('Please enter your login'),
         password: yup.string().required('Please enter your password'),
     });
+
+    useEffect(() => {
+        if (isLoggedIn) {
+            navigate(Paths.Home);
+        }
+    }, [isLoggedIn]);
 
     const handleFormSubmit = (
         values: {
@@ -26,10 +49,7 @@ const LoginPage: FC = () => {
             password: string;
         }>
     ) => {
-        localStorage.setItem('user', values.login);
-        setTimeout(() => {
-            navigate(Paths.Home);
-        }, 1000);
+        dispatch(loginUser(values));
     };
 
     const formik = useFormik({
@@ -40,12 +60,11 @@ const LoginPage: FC = () => {
 
     return (
         <>
-            {formik.isSubmitting && <LinearProgress />}
-
+            {isLoading && <LinearProgress />}
             <InputContainer>
                 <Typography>Login</Typography>
 
-                <Form onSubmit={formik.handleSubmit}>
+                <form onSubmit={formik.handleSubmit}>
                     <TextInput
                         fullWidth
                         id="login"
@@ -59,7 +78,7 @@ const LoginPage: FC = () => {
                             formik.touched.login && Boolean(formik.errors.login)
                         }
                         helperText={formik.touched.login && formik.errors.login}
-                        disabled={formik.isSubmitting}
+                        disabled={isLoading}
                     />
                     <TextInput
                         fullWidth
@@ -77,17 +96,18 @@ const LoginPage: FC = () => {
                         helperText={
                             formik.touched.password && formik.errors.password
                         }
-                        disabled={formik.isSubmitting}
+                        disabled={isLoading}
                     />
 
                     <Button
                         variant="contained"
                         type="submit"
-                        disabled={formik.isSubmitting}
+                        disabled={isLoading}
                     >
                         Login
                     </Button>
-                </Form>
+                </form>
+                {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
             </InputContainer>
         </>
     );
@@ -95,17 +115,18 @@ const LoginPage: FC = () => {
 
 const InputContainer = styled.div`
     height: 100vh;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 `;
 
-const Form = styled.form``;
-
 const TextInput = styled(TextField)`
     margin: 10px 0;
 `;
+
+const ErrorMessage = styledMUI(Typography)(({ theme }) => ({
+    color: theme.palette.error.main,
+}));
 
 export default LoginPage;

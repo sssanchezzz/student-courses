@@ -12,18 +12,23 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import styled from '@emotion/styled';
 import { useNavigate } from 'react-router-dom';
 import { Paths } from 'constants/paths';
+import { useDispatch, useSelector } from 'react-redux';
+import { getUser } from 'features/auth/store/login';
+import { logoutUser } from 'features/auth/store/logout';
 
 const Nav: FC = () => {
-    const title = 'Courses';
     const navigate = useNavigate();
-    const userName = localStorage.getItem('user');
+    const dispatch = useDispatch();
+    const user = useSelector(getUser);
+
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
 
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget);
     };
-    const handleClose = () => {
+    const handleLogoutClick = () => {
+        dispatch(logoutUser());
         setAnchorEl(null);
     };
 
@@ -31,18 +36,21 @@ const Nav: FC = () => {
         navigate(Paths.Home);
     };
 
+    // if (!user) {
+    //     return null;
+    // }
+
     return (
         <Box>
             <AppBar>
                 <Toolbar>
                     <Button sx={{ color: 'white' }} onClick={handleLogoClick}>
-                        {title.toUpperCase()}
+                        Courses
                     </Button>
                     <MenuItemsContainer>
-                        {userName ? (
+                        {user ? (
                             <>
                                 <Button
-                                    sx={{ color: 'white' }}
                                     variant="outlined"
                                     id="basic-button"
                                     aria-controls={
@@ -52,18 +60,18 @@ const Nav: FC = () => {
                                     aria-expanded={open ? 'true' : undefined}
                                     onClick={handleClick}
                                 >
-                                    {userName[0] + userName[1]}
+                                    {user.name[0] + user.surname[0]}
                                 </Button>
                                 <Menu
                                     id="basic-menu"
                                     anchorEl={anchorEl}
                                     open={open}
-                                    onClose={handleClose}
+                                    onClose={handleLogoutClick}
                                     MenuListProps={{
                                         'aria-labelledby': 'basic-button',
                                     }}
                                 >
-                                    <MenuItem onClick={handleClose}>
+                                    <MenuItem onClick={handleLogoutClick}>
                                         Logout
                                     </MenuItem>
                                 </Menu>

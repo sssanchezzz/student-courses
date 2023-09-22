@@ -77,15 +77,14 @@ export function* coursesSaga() {
         fetchCourses.type,
         function* (action: ReturnType<typeof fetchCourses>): Generator {
             try {
-                const response = yield call([
-                    coursesService,
-                    coursesService.getAll,
-                ]);
+                const response = yield call(
+                    [coursesService, coursesService.getByUserId],
+                    action.payload.userId
+                );
 
-                const data = (response as APIResponse).data;
                 yield put({
                     type: fetchCoursesSucceeded.type,
-                    payload: { courses: data },
+                    payload: { courses: response },
                 });
             } catch (err) {
                 yield put({ type: fetchCoursesFailed.type });

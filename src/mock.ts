@@ -1,7 +1,10 @@
 import { isBefore } from 'date-fns';
 import { Course } from 'types/course';
 import { CourseTopic, CourseTopicType, PassedStatus } from 'types/course_topic';
+import { User } from 'types/user';
 import { formatDate } from 'utils/date-format';
+import bcrypt from 'bcryptjs';
+import { UserTopicNotes } from 'types/user_course_topic_notes';
 
 const randomDate = (start: Date, end: Date): Date => {
     return new Date(
@@ -108,3 +111,112 @@ const generateMockCourses = (numCourses: number): Course[] => {
 };
 
 export const MOCK_DATA: Course[] = generateMockCourses(25);
+
+const generateMockUsers = (numUsers: number, courseCount: number): User[] => {
+    const users: User[] = [];
+
+    const courses = Array.from(
+        { length: courseCount },
+        (_, i) => `course-${i}`
+    );
+
+    for (let i = 0; i < numUsers; i++) {
+        const userId = `user-${i}`;
+        const userName = `User ${i + 1}`;
+        const userSurname = `Surname ${i + 1}`;
+        const userLogin = `user${i}@example.com`; // Adjust as needed
+
+        // Generate a random password for the user
+        const rawPassword = 'password'; // Replace with your desired default password
+        const saltRounds = 10; // Adjust the salt rounds as needed
+        const hashedPassword = bcrypt.hashSync(rawPassword, saltRounds);
+
+        // Select a random subset of courses for the user
+        const userCourses = courses
+            .sort(() => Math.random() - 0.5)
+            .slice(0, Math.random() * 5); // Adjust the number of courses as needed
+
+        const user: User = {
+            id: userId,
+            name: userName,
+            surname: userSurname,
+            login: userLogin,
+            password: hashedPassword,
+            courses: userCourses,
+        };
+
+        users.push(user);
+    }
+
+    return users;
+};
+
+// Usage example:
+const numUsers = 5;
+const courseCount = 25; // Number of courses available
+export const mockUsers = generateMockUsers(numUsers, courseCount);
+
+// Print the generated users
+
+const generateMockUserTopicNotes = (
+    courseCount: number,
+    maxNotesPerTopic: number,
+    userCount: number
+): UserTopicNotes[] => {
+    const userTopicNotes: UserTopicNotes[] = [];
+
+    for (let courseId = 0; courseId < courseCount; courseId++) {
+        for (let topicId = 0; topicId < 6; topicId++) {
+            for (let userId = 0; userId < userCount; userId++) {
+                // Generate a random number of notes for the topic (0 to maxNotesPerTopic)
+                const numNotes = Math.floor(
+                    Math.random() * (maxNotesPerTopic + 1)
+                );
+
+                for (let i = 0; i < numNotes; i++) {
+                    const note: UserTopicNotes = {
+                        courseId: `course-${courseId}`,
+                        topicId: `course-${courseId}-topic-${topicId}`,
+                        userId: `user-${userId}`,
+                        notes: `User ${
+                            userId + 1
+                        }'s note on ${courseId}-topic-${topicId}: ${generateMeaningfulNote()}`,
+                    };
+                    userTopicNotes.push(note);
+                }
+            }
+        }
+    }
+
+    return userTopicNotes;
+};
+
+const generateMeaningfulNote = () => {
+    // You can modify this function to generate meaningful notes as needed
+    const phrases = [
+        'This topic was really helpful!',
+        'I struggled a bit with this, but I got it eventually.',
+        'Great explanation in this topic!',
+        'I need more practice on this one.',
+        'Can someone help me understand this better?',
+        'I found a useful resource related to this topic.',
+        "I'm looking for a study group for this topic.",
+        'I enjoyed learning about this!',
+        'I recommend watching this video for extra clarity.',
+    ];
+
+    const randomIndex = Math.floor(Math.random() * phrases.length);
+    return phrases[randomIndex];
+};
+
+// Usage example:
+const maxNotesPerTopic = 2; // Maximum number of notes per topic
+const userCount = 5; // Number of users
+
+export const mockUserTopicNotes = generateMockUserTopicNotes(
+    courseCount,
+    maxNotesPerTopic,
+    userCount
+);
+
+// Print the generated user topic notes

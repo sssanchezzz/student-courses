@@ -5,13 +5,13 @@ import CourseCard from 'features/courses_list/components/course_card';
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { LinearProgress } from '@mui/material';
+import { LinearProgress, Toolbar } from '@mui/material';
+import { mockUserTopicNotes, mockUsers } from 'mock';
 
 const CoursesList: FC = () => {
     const navigate = useNavigate();
     const courses = useSelector(getCourses);
     const isLoading = useSelector(getCoursesLoading);
-
     const handleCourseItemClick = (courseItemId: string) => {
         navigate(`${Paths.Courses}/${courseItemId}`);
     };
@@ -19,7 +19,6 @@ const CoursesList: FC = () => {
     return (
         <>
             {isLoading && <LinearProgress />}
-
             <CoursesContainer>
                 {courses.map((c, i) => (
                     <StyledCourseItem

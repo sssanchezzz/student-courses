@@ -1,0 +1,42 @@
+[
+    {
+        "id": "user-0",
+        "name": "Jose",
+        "surname": "Miller",
+        "login": "user0@example.com",
+        "password": "$2a$10$vI81KZW8UF8k3r9xNUvO1.BRKDjtRbs.U5fw0tm/1QFuFGulYQfUO",
+        "courses": ["course-11", "course-4", "course-10", "course-3"]
+    },
+    {
+        "id": "user-1",
+        "name": "Rolando",
+        "surname": "Ortega",
+        "login": "user1@example.com",
+        "password": "$2a$10$aelub1jssu95KxYedx937OH8kOZPFjaxaQPfxJ.bX1iFH.K/1iFPO",
+        "courses": ["course-20", "course-2"]
+    },
+    {
+        "id": "user-2",
+        "name": "Jonathan",
+        "surname": "Hardison",
+        "login": "user2@example.com",
+        "password": "$2a$10$KfrauweAB8TunhvZTQyH8ufLAoMCxVzo6KkLlqc7H.yNM5sC7lT7K",
+        "courses": ["course-20"]
+    },
+    {
+        "id": "user-3",
+        "name": "Jessica",
+        "surname": "Taylor",
+        "login": "user3@example.com",
+        "password": "$2a$10$e2/2Ren/G.nrL9KT6mfcfOEouLhbZwzP2rafEpfpmdZBLHrhHsox6",
+        "courses": []
+    },
+    {
+        "id": "user-4",
+        "name": "Kathi",
+        "surname": "Smith",
+        "login": "user4@example.com",
+        "password": "$2a$10$8VcIFa3Wj7VfAhZZV/BLMOwo6R5z8dV2atnZF4nZeU/5ey/b0u3JG",
+        "courses": ["course-14", "course-6", "course-3", "course-2"]
+    }
+]
