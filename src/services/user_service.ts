@@ -35,25 +35,6 @@ class UsersService {
             res(user || null);
         });
     }
-
-    getAll(): Promise<User> {
-        throw new Error('Method not implemented.');
-    }
-    create(data: User): void {
-        throw new Error('Method not implemented.');
-    }
-
-    update(id: string, updateValue: User) {}
-    delete(id: string) {
-        return new Promise<User>((res, rej) =>
-            res({
-                id: 'ujfirw78',
-                name: 'John',
-                login: 'john@mail.com',
-                password: '',
-            } as User)
-        );
-    }
 }
 
 const usersService = UsersService.getInstance();

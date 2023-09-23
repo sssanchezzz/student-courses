@@ -8,6 +8,7 @@ import {
     TableSortLabel,
     TableBody,
     Chip,
+    styled,
 } from '@mui/material';
 import { isBefore } from 'date-fns';
 import {
@@ -118,7 +119,7 @@ const TopicsTable: FC<Props> = ({ onTopicClick }) => {
                             : PassedStatus.passed;
 
                         return (
-                            <TableRow
+                            <StyledTableRow
                                 key={topic.id}
                                 onClick={() => onTopicClick(topic)}
                             >
@@ -137,7 +138,7 @@ const TopicsTable: FC<Props> = ({ onTopicClick }) => {
                                         }
                                     />
                                 </TableCell>
-                            </TableRow>
+                            </StyledTableRow>
                         );
                     })}
                 </TableBody>
@@ -145,5 +146,12 @@ const TopicsTable: FC<Props> = ({ onTopicClick }) => {
         </TableContainer>
     );
 };
+
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    cursor: 'pointer',
+    ':hover': {
+        backgroundColor: theme.palette.primary.light,
+    },
+}));
 
 export default TopicsTable;

@@ -34,6 +34,9 @@ export const getIsDrawerOpen = (state: RootState) =>
 
 export const getSelectedTopic = (state: RootState) => state.course_drawer.topic;
 
+export const getSelectedTopicId = (state: RootState) =>
+    state.course_drawer.topic?.id;
+
 // reducer
 
 const courseDrawerReducer = (builder: ActionReducerMapBuilder<DrawerState>) => {

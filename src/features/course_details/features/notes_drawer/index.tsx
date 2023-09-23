@@ -1,35 +1,52 @@
-import { Drawer, Typography, styled as styledMUI } from '@mui/material';
+import { Divider, Drawer, LinearProgress, Typography } from '@mui/material';
 import {
     getIsDrawerOpen,
     getSelectedTopic,
     toggleDrawer,
 } from 'features/course_details/features/notes_drawer/store';
-import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from '@emotion/styled';
+import NotesList from 'features/course_details/features/notes_drawer/notes_list';
+import {
+    fetchNotes,
+    getNotesLoading,
+} from 'features/course_details/features/notes_drawer/notes_list/store';
+import NotesInput from 'features/course_details/features/notes_drawer/notes_input';
 
 const NotesDrawer: FC = () => {
     const dispatch = useDispatch();
     const isDrawerOpen = useSelector(getIsDrawerOpen);
     const selectedTopic = useSelector(getSelectedTopic);
+    const isLoading = useSelector(getNotesLoading);
+
+    useEffect(() => {
+        if (selectedTopic) {
+            dispatch(fetchNotes(selectedTopic.id));
+        }
+    }, [selectedTopic]);
 
     const handleDrawerClose = () => {
         dispatch(toggleDrawer(null));
     };
 
     return (
-        <Drawer anchor="right" open={isDrawerOpen} onClose={handleDrawerClose}>
+        <Drawer
+            anchor="right"
+            open={isDrawerOpen}
+            onClose={handleDrawerClose}
+            // PaperProps={{ style: { height: '100vh' } }}
+        >
+            {isLoading && <LinearProgress />}
             <DrawerContent>
-                <Typography variant="h6">{selectedTopic?.name}</Typography>
-                <Typography variant="h6">Notes</Typography>
-
-                <StyledTextarea
-                    aria-label="minimum height"
-                    minRows={3}
-                    placeholder="Add notes..."
-                />
+                <Title variant="h5">{selectedTopic?.name}</Title>
+                <Title variant="h6" fontWeight={400}>
+                    NOTES
+                </Title>
+                <Divider />
+                <NotesList />
+                <NotesInput />
             </DrawerContent>
         </Drawer>
     );
@@ -41,16 +58,8 @@ const DrawerContent = styled.div`
     text-align: center;
 `;
 
-const StyledTextarea = styledMUI(TextareaAutosize)(
-    ({ theme }) => `
-    width: 320px;
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 12px;
-    border-radius: 12px 12px 0 12px;
-  `
-);
+const Title = styled(Typography)`
+    margin: 15px 0;
+`;
 
 export default NotesDrawer;

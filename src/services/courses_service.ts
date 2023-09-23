@@ -1,12 +1,10 @@
 import db from 'db/courses.json';
-import { APIResponse } from 'services/api_request';
 import usersService from 'services/user_service';
-import { IAPIService } from 'types/api_service';
 import { Course } from 'types/course';
 import { Tuple } from 'types/tuple';
 import { delay } from 'utils/delay';
 
-class CoursesService implements IAPIService<APIResponse> {
+class CoursesService {
     private static _instance: CoursesService;
 
     static getInstance() {
@@ -16,11 +14,11 @@ class CoursesService implements IAPIService<APIResponse> {
         return this._instance;
     }
 
-    getById(id: string): Promise<any> {
+    getById(id: string): Promise<Course> {
         const course = db.find((course) => course.id === id);
         return new Promise((resolve) => {
             delay(1000).then(() => {
-                resolve({ data: course } as APIResponse);
+                resolve(course as unknown as Course); // TODO: implement course parser to make the dates a proper Tuple<Date> type
             });
         });
     }
@@ -53,22 +51,6 @@ class CoursesService implements IAPIService<APIResponse> {
                 });
             });
         });
-    }
-
-    async getAll(): Promise<APIResponse> {
-        return new Promise((resolve) => {
-            delay(1000).then(() => {
-                resolve({ data: db } as APIResponse);
-            });
-        });
-    }
-    create(data: APIResponse): void {
-        throw new Error('Method not implemented.');
-    }
-
-    update(id: string, updateValue: APIResponse) {}
-    delete(id: string): Promise<APIResponse> {
-        throw new Error('Method not implemented.');
     }
 }
 

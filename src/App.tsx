@@ -9,7 +9,7 @@ import { Provider, useSelector } from 'react-redux';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { store } from 'store';
 import { getIsUserLoggedIn } from 'features/auth/store/login';
-import { ThemeOptions, ThemeProvider, createTheme } from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material';
 
 const globalStyles = css`
     * {
@@ -24,6 +24,7 @@ const theme = createTheme({
         mode: 'light',
         primary: {
             main: '#ffab00',
+            light: '#ffdf9f',
         },
         secondary: {
             main: '#f50057',

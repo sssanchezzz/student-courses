@@ -7,7 +7,7 @@ import { RootState } from 'store';
 import { Course } from 'types/course';
 import { call, put, takeEvery } from 'redux-saga/effects';
 import coursesService from 'services/courses_service';
-import { APIResponse } from 'services/api_request';
+
 type CourseState = {
     course: Course | null;
     courseId: string | null;
@@ -38,6 +38,8 @@ export const fetchCourseFailed = createAction('FETCH_COURSE_FAILED');
 // selectors
 
 export const getCourse = (state: RootState) => state.course.course;
+
+export const getCourseId = (state: RootState) => state.course.courseId;
 
 export const getCourseLoading = (state: RootState) => state.course.isLoading;
 
@@ -84,11 +86,10 @@ export function* courseSaga() {
                     [coursesService, coursesService.getById],
                     action.payload.courseId
                 );
-                const data = (course as APIResponse).data;
 
                 yield put({
                     type: fetchCourseSucceeded.type,
-                    payload: { course: data },
+                    payload: { course },
                 });
             } catch (err) {
                 yield put({ type: fetchCourseFailed.type });
@@ -105,5 +106,3 @@ export const courseSlice = createSlice({
     reducers: {},
     extraReducers: courseReducer,
 });
-
-// slice

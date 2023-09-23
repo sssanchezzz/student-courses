@@ -6,7 +6,6 @@ import {
 import { RootState } from 'store';
 import { Course } from 'types/course';
 import { call, put, takeEvery } from 'redux-saga/effects';
-import { APIResponse } from 'services/api_request';
 import coursesService from 'services/courses_service';
 type CoursesState = {
     courses: Course[];
@@ -101,5 +100,3 @@ export const coursesSlice = createSlice({
     reducers: {},
     extraReducers: coursesReducer,
 });
-
-// slice

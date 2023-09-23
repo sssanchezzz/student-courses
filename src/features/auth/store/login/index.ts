@@ -61,6 +61,8 @@ export const getIsLoggingIn = (state: RootState) => state.login.isLoading;
 
 export const getUser = (state: RootState) => state.login.user;
 
+export const getUserId = (state: RootState) => state.login.user?.id;
+
 export const getErrorMessage = (state: RootState) => state.login.errorMessage;
 
 // reducer
@@ -130,5 +132,3 @@ export const loginSlice = createSlice({
         logoutReducer(builder);
     },
 });
-
-// slice

@@ -5,8 +5,7 @@ import CourseCard from 'features/courses_list/components/course_card';
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { LinearProgress, Toolbar } from '@mui/material';
-import { mockUserTopicNotes, mockUsers } from 'mock';
+import { LinearProgress } from '@mui/material';
 
 const CoursesList: FC = () => {
     const navigate = useNavigate();

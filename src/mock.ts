@@ -4,7 +4,7 @@ import { CourseTopic, CourseTopicType, PassedStatus } from 'types/course_topic';
 import { User } from 'types/user';
 import { formatDate } from 'utils/date-format';
 import bcrypt from 'bcryptjs';
-import { UserTopicNotes } from 'types/user_course_topic_notes';
+import { UserTopicNote } from 'types/user_course_topic_note';
 
 const randomDate = (start: Date, end: Date): Date => {
     return new Date(
@@ -162,25 +162,28 @@ const generateMockUserTopicNotes = (
     courseCount: number,
     maxNotesPerTopic: number,
     userCount: number
-): UserTopicNotes[] => {
-    const userTopicNotes: UserTopicNotes[] = [];
+): UserTopicNote[] => {
+    const userTopicNotes: UserTopicNote[] = [];
 
     for (let courseId = 0; courseId < courseCount; courseId++) {
-        for (let topicId = 0; topicId < 6; topicId++) {
+        for (let topicId = 0; topicId < 12; topicId++) {
             for (let userId = 0; userId < userCount; userId++) {
                 // Generate a random number of notes for the topic (0 to maxNotesPerTopic)
                 const numNotes = Math.floor(
                     Math.random() * (maxNotesPerTopic + 1)
                 );
 
+                const cId = `course-${courseId}`;
+                const tId = `course-${courseId}-topic-${topicId}`;
+                const uId = `user-${userId}`;
+
                 for (let i = 0; i < numNotes; i++) {
-                    const note: UserTopicNotes = {
-                        courseId: `course-${courseId}`,
-                        topicId: `course-${courseId}-topic-${topicId}`,
-                        userId: `user-${userId}`,
-                        notes: `User ${
-                            userId + 1
-                        }'s note on ${courseId}-topic-${topicId}: ${generateMeaningfulNote()}`,
+                    const note: UserTopicNote = {
+                        id: `${uId}-${tId}-note-${i}`,
+                        courseId: cId,
+                        topicId: tId,
+                        userId: uId,
+                        noteText: generateMeaningfulNote(),
                     };
                     userTopicNotes.push(note);
                 }
@@ -194,15 +197,11 @@ const generateMockUserTopicNotes = (
 const generateMeaningfulNote = () => {
     // You can modify this function to generate meaningful notes as needed
     const phrases = [
-        'This topic was really helpful!',
-        'I struggled a bit with this, but I got it eventually.',
+        'This topic was really helpful',
+        'This topic will be included in the exam',
         'Great explanation in this topic!',
-        'I need more practice on this one.',
-        'Can someone help me understand this better?',
-        'I found a useful resource related to this topic.',
-        "I'm looking for a study group for this topic.",
-        'I enjoyed learning about this!',
-        'I recommend watching this video for extra clarity.',
+        'Todo: do more practice on this one.',
+        'Need to research more on this one',
     ];
 
     const randomIndex = Math.floor(Math.random() * phrases.length);
@@ -210,7 +209,7 @@ const generateMeaningfulNote = () => {
 };
 
 // Usage example:
-const maxNotesPerTopic = 2; // Maximum number of notes per topic
+const maxNotesPerTopic = 5; // Maximum number of notes per topic
 const userCount = 5; // Number of users
 
 export const mockUserTopicNotes = generateMockUserTopicNotes(
