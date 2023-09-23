@@ -1,6 +1,7 @@
 import bcrypt from 'bcryptjs-react';
 import { LoginUser, User } from 'types/user';
 import users from 'db/users.json';
+import { delay } from 'utils/delay';
 
 class UsersService {
     private static _instance: UsersService;
@@ -14,18 +15,22 @@ class UsersService {
 
     login(user: LoginUser): Promise<User | null> {
         return new Promise<User | null>((res, rej) => {
-            const dbUser = users.find((u) => u.login === user.login) as User;
-            if (dbUser) {
-                const isPasswordValid = bcrypt.compareSync(
-                    user.password,
-                    dbUser.password
-                );
+            delay().then(() => {
+                const dbUser = users.find(
+                    (u) => u.login === user.login
+                ) as User;
+                if (dbUser) {
+                    const isPasswordValid = bcrypt.compareSync(
+                        user.password,
+                        dbUser.password
+                    );
 
-                if (isPasswordValid) {
-                    res(dbUser);
+                    if (isPasswordValid) {
+                        res(dbUser);
+                    }
                 }
-            }
-            rej('User not found');
+                rej('User not found');
+            });
         });
     }
 

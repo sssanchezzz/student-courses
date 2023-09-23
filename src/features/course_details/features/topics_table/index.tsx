@@ -5,60 +5,28 @@ import {
     TableHead,
     TableRow,
     TableCell,
-    TableSortLabel,
     TableBody,
     Chip,
     styled,
     Tooltip,
 } from '@mui/material';
 import { isBefore } from 'date-fns';
+import SortLabel from 'features/course_details/features/topics_table/components/sort_label';
 import {
-    TopicSortingProperty,
     getSortOrder,
     getSortedTopics,
     getSortingProperty,
     sortTopics,
 } from 'features/course_details/features/topics_table/store';
-import React, { FC, PropsWithChildren } from 'react';
+import React, { FC } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { CourseTopic, PassedStatus } from 'types/course_topic';
-import { Order } from 'types/order';
 import { formatDate } from 'utils/date-format';
 
 type Props = {
     onTopicClick: (topic: CourseTopic) => void;
 };
 const TODAY = new Date().setHours(0, 0, 0, 0);
-
-type SortLabelProps = PropsWithChildren & {
-    onClick: (
-        e: React.MouseEvent<HTMLSpanElement>,
-        sortingProperty: TopicSortingProperty
-    ) => void;
-    sortingProperty: TopicSortingProperty;
-    activeSortingProperty: TopicSortingProperty;
-    order: Order;
-};
-
-const SortLabel: FC<SortLabelProps> = ({
-    children,
-    onClick,
-    sortingProperty,
-    activeSortingProperty,
-    order,
-}) => {
-    return (
-        <TableSortLabel
-            active={activeSortingProperty === sortingProperty}
-            onClick={(e) => onClick(e, sortingProperty)}
-            direction={
-                activeSortingProperty === sortingProperty ? order : 'asc'
-            }
-        >
-            {children}
-        </TableSortLabel>
-    );
-};
 
 const TopicsTable: FC<Props> = ({ onTopicClick }) => {
     const topics = useSelector(getSortedTopics);
@@ -112,16 +80,13 @@ const TopicsTable: FC<Props> = ({ onTopicClick }) => {
                             formatDate(date)
                         );
 
-                        const status = isBefore(
-                            TODAY,
-                            new Date(topic.dateRange[1])
-                        )
+                        const status = isBefore(TODAY, topic.dateRange[1])
                             ? PassedStatus.upcoming
                             : PassedStatus.passed;
 
                         return (
                             <Tooltip
-                                title="Сlick the row to see notes"
+                                title="Сlick on the row to show the notes"
                                 key={topic.id}
                             >
                                 <StyledTableRow

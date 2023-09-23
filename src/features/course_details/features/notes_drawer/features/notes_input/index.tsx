@@ -5,7 +5,7 @@ import {
     getIsCreatingNote,
     getNoteValue,
     updateNote,
-} from 'features/course_details/features/notes_drawer/notes_input/store';
+} from 'features/course_details/features/notes_drawer/features/notes_input/store';
 import React, { FC } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 

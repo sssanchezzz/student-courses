@@ -1,42 +1,21 @@
-import { Global, css } from '@emotion/react';
-import Nav from 'components/nav';
-import { Paths } from 'constants/paths';
+import { Global, ThemeProvider } from '@emotion/react';
+import Nav from 'features/nav';
+import { Paths } from 'utils/paths';
 import CourseDetailsPage from 'pages/course_details';
 import CoursesPage from 'pages/courses';
-import LoginPage from 'features/auth';
+import LoginPage from 'pages/login';
 import { Provider, useSelector } from 'react-redux';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { store } from 'store';
-import { getIsUserLoggedIn } from 'features/auth/store/login';
-import { ThemeProvider, createTheme } from '@mui/material';
-
-const globalStyles = css`
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-`;
-
-const theme = createTheme({
-    palette: {
-        mode: 'light',
-        primary: {
-            main: '#ffab00',
-            light: '#ffdf9f',
-        },
-        secondary: {
-            main: '#f50057',
-        },
-    },
-});
+import { getIsUserLoggedIn } from 'features/login_form/store/login';
+import { appTheme, globalStyles } from 'theme';
 
 function App() {
     return (
         <>
             <Provider store={store}>
                 <Global styles={globalStyles} />
-                <ThemeProvider theme={theme}>
+                <ThemeProvider theme={appTheme}>
                     <Nav />
                     <Routes>
                         <Route path={Paths.Login()} element={<LoginPage />} />

@@ -7,7 +7,7 @@ import { RootState } from 'store';
 import { call, put, takeEvery } from 'redux-saga/effects';
 import { LoginUser, User } from 'types/user';
 import usersService from 'services/user_service';
-import { logoutReducer } from 'features/auth/store/logout';
+import { logoutReducer } from 'features/nav/store';
 
 export type AuthState = {
     userId: User | null;

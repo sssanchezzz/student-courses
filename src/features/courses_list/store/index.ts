@@ -7,7 +7,7 @@ import { RootState } from 'store';
 import { Course } from 'types/course';
 import { call, put, takeEvery } from 'redux-saga/effects';
 import coursesService from 'services/courses_service';
-import { logoutUserSucceeded } from 'features/auth/store/logout';
+import { logoutUserSucceeded } from 'features/nav/store';
 type CoursesState = {
     courses: Course[];
     isLoading: boolean;

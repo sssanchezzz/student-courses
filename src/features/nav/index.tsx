@@ -10,10 +10,10 @@ import {
 import React, { FC } from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
-import { Paths } from 'constants/paths';
+import { Paths } from 'utils/paths';
 import { useDispatch, useSelector } from 'react-redux';
-import { getUser } from 'features/auth/store/login';
-import { logoutUser } from 'features/auth/store/logout';
+import { getUser } from 'features/login_form/store/login';
+import { logoutUser } from 'features/nav/store';
 
 const Nav: FC = () => {
     const dispatch = useDispatch();

@@ -4,18 +4,17 @@ import {
     getSelectedTopic,
     toggleDrawer,
 } from 'features/course_details/features/notes_drawer/store';
-
 import { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from '@emotion/styled';
-import NotesList from 'features/course_details/features/notes_drawer/notes_list';
-import {
-    fetchNotes,
-    getNotesLoading,
-} from 'features/course_details/features/notes_drawer/notes_list/store';
-import NotesInput from 'features/course_details/features/notes_drawer/notes_input';
-import { getIsCreatingNote } from 'features/course_details/features/notes_drawer/notes_input/store';
+import NotesInput from 'features/course_details/features/notes_drawer/features/notes_input';
+import { getIsCreatingNote } from 'features/course_details/features/notes_drawer/features/notes_input/store';
 import Loader from 'components/loader';
+import NotesList from 'features/course_details/features/notes_drawer/features/notes_list';
+import {
+    getNotesLoading,
+    fetchNotes,
+} from 'features/course_details/features/notes_drawer/features/notes_list/store';
 
 const NotesDrawer: FC = () => {
     const dispatch = useDispatch();

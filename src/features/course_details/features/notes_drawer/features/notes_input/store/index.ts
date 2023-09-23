@@ -3,8 +3,8 @@ import {
     createAction,
     createSlice,
 } from '@reduxjs/toolkit';
-import { getUserId } from 'features/auth/store/login';
-import { logoutUserSucceeded } from 'features/auth/store/logout';
+import { getUserId } from 'features/login_form/store/login';
+import { logoutUserSucceeded } from 'features/nav/store';
 import { getSelectedTopicId } from 'features/course_details/features/notes_drawer/store';
 import { getCourseId } from 'features/course_details/store';
 import { call, put, select, takeEvery } from 'redux-saga/effects';

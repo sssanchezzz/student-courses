@@ -4,7 +4,7 @@ import {
     createSlice,
 } from '@reduxjs/toolkit';
 import { isAfter, isBefore } from 'date-fns';
-import { logoutUserSucceeded } from 'features/auth/store/logout';
+import { logoutUserSucceeded } from 'features/nav/store';
 import { fetchCourseSucceeded } from 'features/course_details/store';
 import { RootState } from 'store';
 import { CourseTopic } from 'types/course_topic';
@@ -165,8 +165,8 @@ function ascendingComparator(
 }
 
 function ascendingDateComparator(a: CourseTopic, b: CourseTopic) {
-    const dateA = new Date(a.dateRange[0] as DateArg);
-    const dateB = new Date(b.dateRange[0] as DateArg);
+    const dateA = a.dateRange[0];
+    const dateB = b.dateRange[0];
 
     if (isAfter(dateA, dateB)) {
         return 1;

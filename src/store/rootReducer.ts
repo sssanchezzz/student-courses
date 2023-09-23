@@ -3,9 +3,9 @@ import { courseDrawerSlice } from 'features/course_details/features/notes_drawer
 import { sortTopicsSlice } from 'features/course_details/features/topics_table/store';
 import { courseSlice } from 'features/course_details/store';
 import { coursesSlice } from 'features/courses_list/store';
-import { authSlice } from 'features/auth/store/login';
-import { notesSlice } from 'features/course_details/features/notes_drawer/notes_list/store';
-import { notesInputSlice } from 'features/course_details/features/notes_drawer/notes_input/store';
+import { authSlice } from 'features/login_form/store/login';
+import { notesInputSlice } from 'features/course_details/features/notes_drawer/features/notes_input/store';
+import { notesSlice } from 'features/course_details/features/notes_drawer/features/notes_list/store';
 
 export const rootReducer = combineReducers({
     courses: coursesSlice.reducer,

@@ -5,9 +5,9 @@ import {
     ListItemText,
     styled as styledMUI,
 } from '@mui/material';
+import { getNotes } from 'features/course_details/features/notes_drawer/features/notes_list/store';
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
-import { getNotes } from 'features/course_details/features/notes_drawer/notes_list/store';
 
 const NotesList: FC = () => {
     const notes = useSelector(getNotes);

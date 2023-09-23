@@ -7,10 +7,10 @@ import { RootState } from 'store';
 import { call, put, select, takeEvery } from 'redux-saga/effects';
 import { UserTopicNote } from 'types/user_course_topic_note';
 import userNotesService from 'services/user_notes_service';
-import { getUserId } from 'features/auth/store/login';
+import { getUserId } from 'features/login_form/store/login';
 import { getCourseId } from 'features/course_details/store';
-import { createNoteSucceeded } from 'features/course_details/features/notes_drawer/notes_input/store';
-import { logoutUserSucceeded } from 'features/auth/store/logout';
+import { createNoteSucceeded } from 'features/course_details/features/notes_drawer/features/notes_input/store';
+import { logoutUserSucceeded } from 'features/nav/store';
 
 type NotesState = {
     notes: UserTopicNote[];

@@ -1,6 +1,6 @@
 import CoursesList from 'features/courses_list';
 import { fetchCourses, getCoursesLoading } from 'features/courses_list/store';
-import { getUser } from 'features/auth/store/login';
+import { getUser } from 'features/login_form/store/login';
 import { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import PageContainer from 'components/page_container';

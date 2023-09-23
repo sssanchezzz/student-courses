@@ -1,10 +1,10 @@
 import { courseSaga } from 'features/course_details/store';
 import { coursesSaga } from 'features/courses_list/store';
-import { loginSaga } from 'features/auth/store/login';
+import { loginSaga } from 'features/login_form/store/login';
 import { all, fork } from 'redux-saga/effects';
-import { logoutSaga } from 'features/auth/store/logout';
-import { notesSaga } from 'features/course_details/features/notes_drawer/notes_list/store';
-import { notesInputSaga } from 'features/course_details/features/notes_drawer/notes_input/store';
+import { logoutSaga } from 'features/nav/store';
+import { notesInputSaga } from 'features/course_details/features/notes_drawer/features/notes_input/store';
+import { notesSaga } from 'features/course_details/features/notes_drawer/features/notes_list/store';
 
 export function* rootSaga() {
     yield all([

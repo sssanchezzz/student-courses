@@ -1,6 +1,6 @@
 import { ActionReducerMapBuilder, createAction } from '@reduxjs/toolkit';
 import { put, takeEvery } from 'redux-saga/effects';
-import { AuthState } from 'features/auth/store/login';
+import { AuthState } from 'features/login_form/store/login';
 
 // actions
 

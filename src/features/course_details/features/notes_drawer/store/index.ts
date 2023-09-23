@@ -3,7 +3,7 @@ import {
     createAction,
     createSlice,
 } from '@reduxjs/toolkit';
-import { logoutUserSucceeded } from 'features/auth/store/logout';
+import { logoutUserSucceeded } from 'features/nav/store';
 import { RootState } from 'store';
 import { CourseTopic } from 'types/course_topic';
 
