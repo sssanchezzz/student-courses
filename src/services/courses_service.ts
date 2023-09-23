@@ -1,7 +1,7 @@
 import db from 'db/courses.json';
 import usersService from 'services/user_service';
 import { Course } from 'types/course';
-import { Tuple } from 'types/tuple';
+import { parseCourseJSON } from 'utils/course_parser';
 import { delay } from 'utils/delay';
 
 class CoursesService {
@@ -16,16 +16,20 @@ class CoursesService {
 
     getById(id: string): Promise<Course> {
         const course = db.find((course) => course.id === id);
-        return new Promise((resolve) => {
-            delay(1000).then(() => {
-                resolve(course as unknown as Course); // TODO: implement course parser to make the dates a proper Tuple<Date> type
+        return new Promise((res, rej) => {
+            delay().then(() => {
+                if (course) {
+                    res(parseCourseJSON(course));
+                    return;
+                }
+                rej('Course not found');
             });
         });
     }
 
     getByUserId(userId: string): Promise<Course[] | null> {
         return new Promise((resolve) => {
-            delay(1000).then(() => {
+            delay().then(() => {
                 usersService.getById(userId).then((res) => {
                     if (res === null) {
                         resolve(null);
@@ -34,18 +38,7 @@ class CoursesService {
 
                     const courses = db
                         .filter((course) => res.courses.includes(course.id))
-                        .map((courses) => ({
-                            ...courses,
-                            date: courses.date.map(
-                                (d) => new Date(d)
-                            ) as Tuple<Date>,
-                            topics: courses.topics.map((t) => ({
-                                ...t,
-                                dateRange: t.dateRange.map(
-                                    (d) => new Date(d)
-                                ) as Tuple<Date>,
-                            })),
-                        })) as Course[];
+                        .map((course) => parseCourseJSON(course));
 
                     resolve(courses);
                 });

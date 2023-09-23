@@ -3,6 +3,7 @@ import {
     createAction,
     createSlice,
 } from '@reduxjs/toolkit';
+import { logoutUserSucceeded } from 'features/auth/store/logout';
 import { RootState } from 'store';
 import { CourseTopic } from 'types/course_topic';
 
@@ -40,15 +41,19 @@ export const getSelectedTopicId = (state: RootState) =>
 // reducer
 
 const courseDrawerReducer = (builder: ActionReducerMapBuilder<DrawerState>) => {
-    builder.addCase(toggleDrawer, (state, action) => {
-        const nextIsOpenState = !state.isDrawerOpen;
+    builder
+        .addCase(toggleDrawer, (state, action) => {
+            const nextIsOpenState = !state.isDrawerOpen;
 
-        return {
-            ...state,
-            isDrawerOpen: nextIsOpenState,
-            topic: nextIsOpenState ? action.payload.topic : null,
-        };
-    });
+            return {
+                ...state,
+                isDrawerOpen: nextIsOpenState,
+                topic: action.payload.topic,
+            };
+        })
+        .addCase(logoutUserSucceeded, (action, payload) => {
+            return initialState;
+        });
 };
 
 // slice

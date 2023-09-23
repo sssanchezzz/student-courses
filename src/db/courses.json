@@ -3,13 +3,12 @@
         "id": "course-0",
         "name": "Fruit almost forward.",
         "description": "Cold giant recall broken food broken food lesson recall broken distant ground distant food fruit potential giant forward shaking bend distant weather recall weather square square fruit ground math Got bend math shop ability forward.",
-        "date": ["2023-09-05T10:31:44.125Z", "2023-11-09T10:31:44.130Z"],
+        "dateRange": ["2023-09-05T10:31:44.125Z", "2023-11-09T10:31:44.130Z"],
         "topics": [
             {
                 "id": "course-0-topic-0",
                 "name": "Topic 1 - Lesson food square square shop.",
                 "description": "Almost exception exception easy forward ground weather weather giant potential forward distant Got weather broken ability giant math weather fruit.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-05T10:31:44.125Z",
                     "2023-09-17T10:31:44.125Z"
@@ -20,7 +19,6 @@
                 "id": "course-0-topic-1",
                 "name": "Topic 2 - Ability weather ability weather weather.",
                 "description": "Ability food recall shop exception square adjective. easy almost ground weather ground weather potential recall cold shop shaking recall Got shaking.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-17T10:31:44.126Z",
                     "2023-09-19T10:31:44.126Z"
@@ -31,7 +29,6 @@
                 "id": "course-0-topic-2",
                 "name": "Topic 3 - Food giant lesson bend food.",
                 "description": "Almost recall forward math potential shaking almost fruit broken potential potential easy recall recall broken easy Got food ability almost broken distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-19T10:31:44.127Z",
                     "2023-09-29T10:31:44.127Z"
@@ -42,7 +39,6 @@
                 "id": "course-0-topic-3",
                 "name": "Topic 4 - Distant weather almost square food.",
                 "description": "Forward math ability potential food almost math square easy shop distant lesson giant fruit square easy exception forward distant broken cold forward potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-29T10:31:44.128Z",
                     "2023-10-16T10:31:44.128Z"
@@ -53,7 +49,6 @@
                 "id": "course-0-topic-4",
                 "name": "Topic 5 - Adjective. almost fruit cold broken.",
                 "description": "Food food weather almost shaking distant fruit exception food distant lesson almost almost broken ground giant recall fruit Got fruit almost food distant easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-16T10:31:44.129Z",
                     "2023-11-03T10:31:44.129Z"
@@ -64,7 +59,6 @@
                 "id": "course-0-topic-5",
                 "name": "Topic 6 - Forward giant ability ability lesson.",
                 "description": "Adjective. shop exception lesson shaking adjective. lesson bend cold giant shop forward ability forward almost ground exception Got exception cold ground lesson bend giant weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-03T10:31:44.130Z",
                     "2023-11-09T10:31:44.130Z"
@@ -77,13 +71,12 @@
         "id": "course-1",
         "name": "Forward fruit ability.",
         "description": "Math shaking exception easy giant shop lesson easy math math bend shop lesson ability distant shaking square almost math bend adjective. lesson giant distant almost shop cold easy giant food distant potential potential almost shop weather.",
-        "date": ["2023-09-10T10:31:44.125Z", "2023-12-06T10:31:44.134Z"],
+        "dateRange": ["2023-09-10T10:31:44.125Z", "2023-12-06T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-1-topic-0",
                 "name": "Topic 1 - Ground easy distant lesson weather.",
                 "description": "Potential food easy ability giant Got distant giant adjective. bend cold giant square Got food square distant easy broken easy.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-10T10:31:44.125Z",
                     "2023-09-22T10:31:44.125Z"
@@ -94,7 +87,6 @@
                 "id": "course-1-topic-1",
                 "name": "Topic 2 - Weather lesson almost Got ability.",
                 "description": "Weather easy math forward almost shop cold potential ground giant fruit almost square forward fruit ability forward giant almost easy ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-22T10:31:44.126Z",
                     "2023-10-10T10:31:44.126Z"
@@ -105,7 +97,6 @@
                 "id": "course-1-topic-2",
                 "name": "Topic 3 - Easy forward forward shop cold.",
                 "description": "Exception broken forward forward cold cold shaking almost shaking bend shop ground easy lesson exception bend distant ground ability broken distant math.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-10T10:31:44.127Z",
                     "2023-10-12T10:31:44.127Z"
@@ -116,7 +107,6 @@
                 "id": "course-1-topic-3",
                 "name": "Topic 4 - Bend exception broken recall exception.",
                 "description": "Broken fruit cold ground weather cold fruit exception shop potential exception distant exception forward fruit lesson forward almost easy broken food broken exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-12T10:31:44.128Z",
                     "2023-10-16T10:31:44.128Z"
@@ -127,7 +117,6 @@
                 "id": "course-1-topic-4",
                 "name": "Topic 5 - Math bend giant broken cold.",
                 "description": "Bend broken broken easy adjective. bend potential distant potential weather math broken broken square bend forward math potential fruit adjective. lesson cold almost easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-16T10:31:44.129Z",
                     "2023-10-28T10:31:44.129Z"
@@ -138,7 +127,6 @@
                 "id": "course-1-topic-5",
                 "name": "Topic 6 - Recall bend square recall ability.",
                 "description": "Almost food giant adjective. potential bend almost bend potential forward giant cold ground adjective. Got fruit square easy forward easy distant ability math weather forward.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-28T10:31:44.130Z",
                     "2023-11-09T10:31:44.130Z"
@@ -149,7 +137,6 @@
                 "id": "course-1-topic-6",
                 "name": "Topic 7 - Potential almost square weather ground.",
                 "description": "Almost ability weather weather exception lesson potential lesson lesson distant forward math square adjective. easy exception food Got broken fruit ability distant food Got weather fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-09T10:31:44.131Z",
                     "2023-11-17T10:31:44.131Z"
@@ -160,7 +147,6 @@
                 "id": "course-1-topic-7",
                 "name": "Topic 8 - Easy forward shop weather adjective..",
                 "description": "Shop broken bend ground easy easy ground almost shop square weather bend easy easy broken almost lesson weather square distant lesson cold weather fruit math distant bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-17T10:31:44.132Z",
                     "2023-12-01T10:31:44.132Z"
@@ -171,7 +157,6 @@
                 "id": "course-1-topic-8",
                 "name": "Topic 9 - Forward potential distant bend shaking.",
                 "description": "Easy recall fruit forward weather potential food giant almost shop food cold distant exception bend square exception recall cold shaking weather almost square distant exception bend fruit math.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-01T10:31:44.133Z",
                     "2023-12-02T10:31:44.133Z"
@@ -182,7 +167,6 @@
                 "id": "course-1-topic-9",
                 "name": "Topic 10 - Food shop ability food weather.",
                 "description": "Ability distant easy giant bend shop Got broken broken food math weather adjective. almost forward math cold broken distant broken square math shaking ground shop ability ground ability bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-02T10:31:44.134Z",
                     "2023-12-06T10:31:44.134Z"
@@ -195,13 +179,12 @@
         "id": "course-2",
         "name": "Food adjective. distant.",
         "description": "Giant math math square Got forward exception distant potential adjective. shop potential bend potential shop giant recall recall bend shaking adjective. ability almost weather potential cold cold giant almost math lesson ability fruit ground fruit shop shop.",
-        "date": ["2023-09-10T10:31:44.125Z", "2024-01-29T10:31:44.136Z"],
+        "dateRange": ["2023-09-10T10:31:44.125Z", "2024-01-29T10:31:44.136Z"],
         "topics": [
             {
                 "id": "course-2-topic-0",
                 "name": "Topic 1 - Adjective. math easy cold shaking.",
                 "description": "Cold math broken broken almost cold adjective. weather exception easy recall weather broken easy ground broken exception weather distant exception.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-10T10:31:44.125Z",
                     "2023-09-17T10:31:44.125Z"
@@ -212,7 +195,6 @@
                 "id": "course-2-topic-1",
                 "name": "Topic 2 - Ability food giant bend lesson.",
                 "description": "Fruit weather square easy easy adjective. fruit ability potential exception ground shaking math ground almost ability forward math lesson forward easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-17T10:31:44.126Z",
                     "2023-10-03T10:31:44.126Z"
@@ -223,7 +205,6 @@
                 "id": "course-2-topic-2",
                 "name": "Topic 3 - Shop ability shop easy lesson.",
                 "description": "Almost potential shaking recall almost Got weather potential forward forward lesson lesson shaking almost ability food exception broken shop shaking weather cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-03T10:31:44.127Z",
                     "2023-10-23T10:31:44.127Z"
@@ -234,7 +215,6 @@
                 "id": "course-2-topic-3",
                 "name": "Topic 4 - Food weather exception weather shaking.",
                 "description": "Almost food weather broken square ground almost exception math shaking shaking giant shaking adjective. giant ability almost math food distant easy exception almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-23T10:31:44.128Z",
                     "2023-10-24T10:31:44.128Z"
@@ -245,7 +225,6 @@
                 "id": "course-2-topic-4",
                 "name": "Topic 5 - Math Got potential easy math.",
                 "description": "Lesson ability math bend shop forward shaking ground potential food square distant forward food easy shop broken potential adjective. distant ground adjective. broken distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-24T10:31:44.129Z",
                     "2023-11-04T10:31:44.129Z"
@@ -256,7 +235,6 @@
                 "id": "course-2-topic-5",
                 "name": "Topic 6 - Square recall distant fruit math.",
                 "description": "Potential broken exception ground adjective. ability shaking Got broken exception Got easy math giant ground giant broken shop exception broken exception weather ground recall shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-04T10:31:44.130Z",
                     "2023-11-20T10:31:44.130Z"
@@ -267,7 +245,6 @@
                 "id": "course-2-topic-6",
                 "name": "Topic 7 - Almost recall bend recall weather.",
                 "description": "Almost math math distant easy giant weather fruit shop forward food almost bend square food distant potential lesson easy ground Got square bend math adjective. lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-20T10:31:44.131Z",
                     "2023-11-27T10:31:44.131Z"
@@ -278,7 +255,6 @@
                 "id": "course-2-topic-7",
                 "name": "Topic 8 - Ability food Got giant recall.",
                 "description": "Ability almost broken cold square exception math Got bend almost exception shaking cold cold Got fruit shop shaking math food square weather lesson square broken shaking square.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-27T10:31:44.132Z",
                     "2023-12-13T10:31:44.132Z"
@@ -289,7 +265,6 @@
                 "id": "course-2-topic-8",
                 "name": "Topic 9 - Recall broken forward broken adjective..",
                 "description": "Exception Got forward potential shop distant square lesson forward square giant shaking exception easy potential ability forward distant forward forward bend broken square shop fruit ground recall fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-13T10:31:44.133Z",
                     "2024-01-01T10:31:44.133Z"
@@ -300,7 +275,6 @@
                 "id": "course-2-topic-9",
                 "name": "Topic 10 - Cold lesson almost weather almost.",
                 "description": "Potential almost fruit lesson food weather fruit ability weather math square square exception square easy adjective. cold distant fruit weather shop ability square broken easy square broken broken forward.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-01T10:31:44.134Z",
                     "2024-01-18T10:31:44.134Z"
@@ -311,7 +285,6 @@
                 "id": "course-2-topic-10",
                 "name": "Topic 11 - Shaking fruit fruit cold square.",
                 "description": "Adjective. Got distant shop bend fruit bend exception fruit broken easy weather math distant almost recall easy forward recall shaking food distant weather square broken adjective. math math cold weather.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-18T10:31:44.135Z",
                     "2024-01-25T10:31:44.135Z"
@@ -322,7 +295,6 @@
                 "id": "course-2-topic-11",
                 "name": "Topic 12 - Square math easy adjective. cold.",
                 "description": "Bend potential potential exception adjective. exception exception exception easy ability shop ground math fruit food weather exception shaking fruit forward math broken bend bend shaking cold recall shop bend shaking easy.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-25T10:31:44.136Z",
                     "2024-01-29T10:31:44.136Z"
@@ -335,13 +307,12 @@
         "id": "course-3",
         "name": "Adjective. square exception.",
         "description": "Food distant fruit math broken square ground ground ability weather lesson ground almost cold exception broken shop broken fruit math math fruit almost forward forward bend lesson Got ground almost forward giant exception shaking cold Got lesson weather.",
-        "date": ["2023-09-13T10:31:44.126Z", "2023-10-27T10:31:44.131Z"],
+        "dateRange": ["2023-09-13T10:31:44.126Z", "2023-10-27T10:31:44.131Z"],
         "topics": [
             {
                 "id": "course-3-topic-0",
                 "name": "Topic 1 - Square food lesson easy potential.",
                 "description": "Exception food broken giant recall square fruit easy almost almost adjective. food potential square ground forward forward broken square recall.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-13T10:31:44.126Z",
                     "2023-09-20T10:31:44.126Z"
@@ -352,7 +323,6 @@
                 "id": "course-3-topic-1",
                 "name": "Topic 2 - Exception adjective. ability forward weather.",
                 "description": "Lesson cold shaking forward distant cold cold giant almost giant cold easy broken weather shop potential almost recall distant forward giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-20T10:31:44.127Z",
                     "2023-09-30T10:31:44.127Z"
@@ -363,7 +333,6 @@
                 "id": "course-3-topic-2",
                 "name": "Topic 3 - Square shop shaking easy lesson.",
                 "description": "Lesson broken giant broken weather shaking easy shaking distant almost exception easy fruit broken bend ability distant weather bend square forward exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-30T10:31:44.128Z",
                     "2023-10-08T10:31:44.128Z"
@@ -374,7 +343,6 @@
                 "id": "course-3-topic-3",
                 "name": "Topic 4 - Lesson adjective. easy math shop.",
                 "description": "Recall cold recall recall bend forward exception math distant cold potential square shaking ability ground square math math forward weather fruit cold forward.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-08T10:31:44.129Z",
                     "2023-10-16T10:31:44.129Z"
@@ -385,7 +353,6 @@
                 "id": "course-3-topic-4",
                 "name": "Topic 5 - Lesson almost food recall cold.",
                 "description": "Got weather exception square math bend exception shaking fruit easy math shop fruit ground Got food math cold food shaking distant almost distant adjective..",
-                "status": 0,
                 "dateRange": [
                     "2023-10-16T10:31:44.130Z",
                     "2023-10-19T10:31:44.130Z"
@@ -396,7 +363,6 @@
                 "id": "course-3-topic-5",
                 "name": "Topic 6 - Weather square recall exception ability.",
                 "description": "Exception lesson broken distant Got exception giant weather square food food shop shaking ability recall fruit giant Got cold easy distant potential Got easy ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-19T10:31:44.131Z",
                     "2023-10-27T10:31:44.131Z"
@@ -409,13 +375,12 @@
         "id": "course-4",
         "name": "Recall cold math.",
         "description": "Potential math almost shaking weather easy ground ground shop cold weather bend ability ability shaking shaking shaking easy shop square shaking weather bend Got exception fruit weather cold shaking ground broken shaking fruit adjective. lesson weather recall adjective. recall.",
-        "date": ["2023-09-02T10:31:44.126Z", "2023-12-12T10:31:44.134Z"],
+        "dateRange": ["2023-09-02T10:31:44.126Z", "2023-12-12T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-4-topic-0",
                 "name": "Topic 1 - Almost shop forward forward almost.",
                 "description": "Square cold ground broken exception easy exception bend giant food fruit potential square lesson shaking broken broken shop almost exception.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-02T10:31:44.126Z",
                     "2023-09-08T10:31:44.126Z"
@@ -426,7 +391,6 @@
                 "id": "course-4-topic-1",
                 "name": "Topic 2 - Broken bend square weather adjective..",
                 "description": "Adjective. forward weather exception adjective. shaking weather distant shop potential food giant adjective. potential recall almost ability distant broken cold almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-08T10:31:44.127Z",
                     "2023-09-25T10:31:44.127Z"
@@ -437,7 +401,6 @@
                 "id": "course-4-topic-2",
                 "name": "Topic 3 - Weather weather weather distant fruit.",
                 "description": "Shop giant bend math shaking square lesson square lesson food bend shaking forward broken square ground potential shaking giant broken fruit broken.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-25T10:31:44.128Z",
                     "2023-10-12T10:31:44.128Z"
@@ -448,7 +411,6 @@
                 "id": "course-4-topic-3",
                 "name": "Topic 4 - Cold math forward broken giant.",
                 "description": "Bend shop math ground broken distant ability potential exception adjective. fruit adjective. shop ability broken distant shop math recall lesson easy easy ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-12T10:31:44.129Z",
                     "2023-10-30T10:31:44.129Z"
@@ -459,7 +421,6 @@
                 "id": "course-4-topic-4",
                 "name": "Topic 5 - Easy forward bend ability adjective..",
                 "description": "Ground math broken adjective. easy lesson forward easy ability ground weather distant math food easy food distant forward square ground square almost ground ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-30T10:31:44.130Z",
                     "2023-11-11T10:31:44.130Z"
@@ -470,7 +431,6 @@
                 "id": "course-4-topic-5",
                 "name": "Topic 6 - Shop shaking cold shaking shaking.",
                 "description": "Ground ability distant shop almost shaking food potential distant fruit weather distant bend giant square giant broken square weather shaking recall recall giant fruit weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-11T10:31:44.131Z",
                     "2023-11-15T10:31:44.131Z"
@@ -481,7 +441,6 @@
                 "id": "course-4-topic-6",
                 "name": "Topic 7 - Food cold giant easy broken.",
                 "description": "Shop square forward giant shop weather recall easy ground cold easy shop lesson potential square easy bend lesson food almost Got shaking forward almost weather weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-15T10:31:44.132Z",
                     "2023-11-18T10:31:44.132Z"
@@ -492,7 +451,6 @@
                 "id": "course-4-topic-7",
                 "name": "Topic 8 - Giant square recall broken adjective..",
                 "description": "Food giant square shaking square lesson exception broken almost ability broken shop giant recall distant ability giant fruit almost Got giant almost distant cold forward food bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-18T10:31:44.133Z",
                     "2023-11-26T10:31:44.133Z"
@@ -503,7 +461,6 @@
                 "id": "course-4-topic-8",
                 "name": "Topic 9 - Potential distant cold shaking bend.",
                 "description": "Easy giant shop easy weather potential almost ground potential adjective. lesson easy giant almost math adjective. bend forward food food exception giant square distant bend square shaking lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-26T10:31:44.134Z",
                     "2023-12-12T10:31:44.134Z"
@@ -516,13 +473,12 @@
         "id": "course-5",
         "name": "Shop math fruit.",
         "description": "Distant shaking almost fruit forward forward forward ability lesson distant fruit forward distant potential almost recall bend math ground distant potential lesson exception almost potential lesson shop fruit weather giant fruit giant bend ability broken weather square forward easy food.",
-        "date": ["2023-08-27T10:31:44.126Z", "2023-11-06T10:31:44.130Z"],
+        "dateRange": ["2023-08-27T10:31:44.126Z", "2023-11-06T10:31:44.130Z"],
         "topics": [
             {
                 "id": "course-5-topic-0",
                 "name": "Topic 1 - Distant shaking shaking ability distant.",
                 "description": "Forward square recall fruit potential ground math adjective. potential math ability exception lesson potential recall forward distant ability square food.",
-                "status": 1,
                 "dateRange": [
                     "2023-08-27T10:31:44.126Z",
                     "2023-09-12T10:31:44.126Z"
@@ -533,7 +489,6 @@
                 "id": "course-5-topic-1",
                 "name": "Topic 2 - Exception food broken math square.",
                 "description": "Food recall distant broken fruit ground food ability cold shaking bend fruit ground potential square ground lesson shaking food ability easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-12T10:31:44.127Z",
                     "2023-10-02T10:31:44.127Z"
@@ -544,7 +499,6 @@
                 "id": "course-5-topic-2",
                 "name": "Topic 3 - Math weather giant weather ability.",
                 "description": "Square easy square ground ground forward giant ground easy giant broken fruit fruit ground shaking distant distant shop ground distant cold fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-02T10:31:44.128Z",
                     "2023-10-15T10:31:44.128Z"
@@ -555,7 +509,6 @@
                 "id": "course-5-topic-3",
                 "name": "Topic 4 - Ground weather adjective. ground weather.",
                 "description": "Square distant forward forward weather fruit distant fruit cold Got weather exception distant ability fruit forward math almost adjective. potential exception ground weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-15T10:31:44.129Z",
                     "2023-10-22T10:31:44.129Z"
@@ -566,7 +519,6 @@
                 "id": "course-5-topic-4",
                 "name": "Topic 5 - Weather fruit shop easy broken.",
                 "description": "Cold fruit distant lesson cold adjective. weather forward potential ability square ability exception exception adjective. shaking recall fruit food potential math exception potential exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-22T10:31:44.130Z",
                     "2023-11-06T10:31:44.130Z"
@@ -579,13 +531,12 @@
         "id": "course-6",
         "name": "Forward cold broken.",
         "description": "Shaking broken exception fruit forward broken almost distant potential broken recall shop recall broken cold cold easy potential square fruit giant bend easy lesson cold recall bend shop weather bend distant weather ability potential lesson fruit ground ground shaking lesson adjective..",
-        "date": ["2023-09-08T10:31:44.126Z", "2023-12-23T10:31:44.135Z"],
+        "dateRange": ["2023-09-08T10:31:44.126Z", "2023-12-23T10:31:44.135Z"],
         "topics": [
             {
                 "id": "course-6-topic-0",
                 "name": "Topic 1 - Square food lesson fruit square.",
                 "description": "Recall almost ability broken exception ground distant shaking exception forward cold giant almost shop math almost Got potential food distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-08T10:31:44.126Z",
                     "2023-09-23T10:31:44.126Z"
@@ -596,7 +547,6 @@
                 "id": "course-6-topic-1",
                 "name": "Topic 2 - Potential shaking cold weather fruit.",
                 "description": "Square shaking shop shaking almost easy distant giant ability almost distant weather broken exception weather lesson exception broken ability cold fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-23T10:31:44.127Z",
                     "2023-10-13T10:31:44.127Z"
@@ -607,7 +557,6 @@
                 "id": "course-6-topic-2",
                 "name": "Topic 3 - Ability cold food lesson recall.",
                 "description": "Math lesson easy exception fruit forward adjective. recall easy ground weather shop square ability easy weather food food ground square almost easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-13T10:31:44.128Z",
                     "2023-10-25T10:31:44.128Z"
@@ -618,7 +567,6 @@
                 "id": "course-6-topic-3",
                 "name": "Topic 4 - Potential distant bend bend almost.",
                 "description": "Math giant ground weather fruit exception cold recall Got distant bend easy broken ability almost distant ability almost ability almost math math ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-25T10:31:44.129Z",
                     "2023-10-27T10:31:44.129Z"
@@ -629,7 +577,6 @@
                 "id": "course-6-topic-4",
                 "name": "Topic 5 - Ground ground forward shaking easy.",
                 "description": "Bend lesson adjective. easy potential food bend ground weather Got cold potential square almost math giant adjective. potential fruit ground distant adjective. potential broken.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-27T10:31:44.130Z",
                     "2023-11-03T10:31:44.130Z"
@@ -640,7 +587,6 @@
                 "id": "course-6-topic-5",
                 "name": "Topic 6 - Ability fruit adjective. forward exception.",
                 "description": "Bend giant food broken shop bend ground fruit broken bend easy cold cold broken ability lesson square weather ground adjective. almost almost cold weather giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-03T10:31:44.131Z",
                     "2023-11-23T10:31:44.131Z"
@@ -651,7 +597,6 @@
                 "id": "course-6-topic-6",
                 "name": "Topic 7 - Bend recall fruit fruit giant.",
                 "description": "Ground giant recall recall math lesson shaking square ability weather square square fruit food food bend fruit bend shaking food almost lesson weather ground broken exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-23T10:31:44.132Z",
                     "2023-11-28T10:31:44.132Z"
@@ -662,7 +607,6 @@
                 "id": "course-6-topic-7",
                 "name": "Topic 8 - Cold food math cold lesson.",
                 "description": "Almost ground recall square easy exception weather lesson ground weather shaking Got math weather shop lesson weather easy shaking exception math recall cold distant Got weather ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-28T10:31:44.133Z",
                     "2023-12-05T10:31:44.133Z"
@@ -673,7 +617,6 @@
                 "id": "course-6-topic-8",
                 "name": "Topic 9 - Broken shop distant shaking fruit.",
                 "description": "Lesson recall square potential ability giant giant shop fruit bend recall exception potential weather weather almost broken exception shaking lesson almost giant broken adjective. bend Got forward math.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-05T10:31:44.134Z",
                     "2023-12-13T10:31:44.134Z"
@@ -684,7 +627,6 @@
                 "id": "course-6-topic-9",
                 "name": "Topic 10 - Potential exception ground almost shaking.",
                 "description": "Forward recall almost easy shaking ability adjective. recall recall weather almost math weather broken forward broken shop recall lesson food math distant giant weather math forward square potential ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-13T10:31:44.135Z",
                     "2023-12-23T10:31:44.135Z"
@@ -697,13 +639,12 @@
         "id": "course-7",
         "name": "Ground weather giant.",
         "description": "Math ground easy shaking bend exception fruit math easy ability almost shaking potential easy square potential broken Got giant exception shop shaking Got shaking food almost ability giant adjective. easy math bend shop giant math fruit ground square distant ground fruit exception.",
-        "date": ["2023-09-10T10:31:44.126Z", "2024-02-06T10:31:44.137Z"],
+        "dateRange": ["2023-09-10T10:31:44.126Z", "2024-02-06T10:31:44.137Z"],
         "topics": [
             {
                 "id": "course-7-topic-0",
                 "name": "Topic 1 - Square distant giant recall shop.",
                 "description": "Almost distant math easy easy exception giant shop potential shaking shop ground lesson food potential distant giant adjective. exception easy.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-10T10:31:44.126Z",
                     "2023-09-13T10:31:44.126Z"
@@ -714,7 +655,6 @@
                 "id": "course-7-topic-1",
                 "name": "Topic 2 - Weather exception cold lesson fruit.",
                 "description": "Math recall shop math shaking easy recall shop giant potential lesson broken ground forward cold exception forward broken math easy easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-13T10:31:44.127Z",
                     "2023-09-24T10:31:44.127Z"
@@ -725,7 +665,6 @@
                 "id": "course-7-topic-2",
                 "name": "Topic 3 - Bend broken cold lesson bend.",
                 "description": "Shaking food forward lesson Got exception giant exception food lesson shop shaking cold almost distant ground potential square easy potential giant shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-24T10:31:44.128Z",
                     "2023-10-07T10:31:44.128Z"
@@ -736,7 +675,6 @@
                 "id": "course-7-topic-3",
                 "name": "Topic 4 - Square recall shop ability food.",
                 "description": "Recall recall ability ability lesson shaking shop distant lesson giant lesson broken ability distant forward forward bend exception food weather shaking shop potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-07T10:31:44.129Z",
                     "2023-10-21T10:31:44.129Z"
@@ -747,7 +685,6 @@
                 "id": "course-7-topic-4",
                 "name": "Topic 5 - Forward giant recall broken distant.",
                 "description": "Got ground recall almost square broken food weather exception square broken food recall ability recall giant bend cold shaking lesson adjective. weather adjective. cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-21T10:31:44.130Z",
                     "2023-11-11T10:31:44.130Z"
@@ -758,7 +695,6 @@
                 "id": "course-7-topic-5",
                 "name": "Topic 6 - Lesson exception exception easy forward.",
                 "description": "Ability shop Got shop shaking bend giant giant easy easy easy ability shaking square forward shaking exception forward square giant recall almost food lesson cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-11T10:31:44.131Z",
                     "2023-11-30T10:31:44.131Z"
@@ -769,7 +705,6 @@
                 "id": "course-7-topic-6",
                 "name": "Topic 7 - Exception giant distant food broken.",
                 "description": "Math ability cold giant giant easy broken ability bend shaking recall shaking food math giant distant food giant ground distant giant broken exception forward exception exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-30T10:31:44.132Z",
                     "2023-12-20T10:31:44.132Z"
@@ -780,7 +715,6 @@
                 "id": "course-7-topic-7",
                 "name": "Topic 8 - Adjective. forward broken forward fruit.",
                 "description": "Forward forward giant shaking exception distant giant potential ability lesson ground shop distant shaking forward distant recall food exception shaking square potential giant bend cold shop cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-20T10:31:44.133Z",
                     "2023-12-27T10:31:44.133Z"
@@ -791,7 +725,6 @@
                 "id": "course-7-topic-8",
                 "name": "Topic 9 - Almost food almost ground exception.",
                 "description": "Broken potential cold exception ground adjective. cold almost fruit Got food math recall giant square math cold math easy ability almost distant easy giant bend bend weather ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-27T10:31:44.134Z",
                     "2024-01-12T10:31:44.134Z"
@@ -802,7 +735,6 @@
                 "id": "course-7-topic-9",
                 "name": "Topic 10 - Shaking food forward distant square.",
                 "description": "Exception distant weather broken math broken potential lesson adjective. lesson exception cold recall square ground bend broken weather lesson easy bend recall easy recall cold almost Got square math.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-12T10:31:44.135Z",
                     "2024-01-16T10:31:44.135Z"
@@ -813,7 +745,6 @@
                 "id": "course-7-topic-10",
                 "name": "Topic 11 - Ability shaking forward square lesson.",
                 "description": "Almost shop giant ground recall giant forward potential exception shop lesson exception weather exception shaking recall ability almost bend Got exception forward recall food broken potential giant lesson weather potential.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-16T10:31:44.136Z",
                     "2024-01-23T10:31:44.136Z"
@@ -824,7 +755,6 @@
                 "id": "course-7-topic-11",
                 "name": "Topic 12 - Shaking square square cold Got.",
                 "description": "Cold exception ground distant fruit ability shop weather giant square almost cold weather weather cold distant lesson cold lesson easy lesson fruit broken fruit shaking fruit bend ground almost ground shop.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-23T10:31:44.137Z",
                     "2024-02-06T10:31:44.137Z"
@@ -837,13 +767,12 @@
         "id": "course-8",
         "name": "Ability ability exception.",
         "description": "Exception ability fruit almost shop distant shaking potential ability square cold lesson giant recall forward ground exception potential weather forward exception exception potential food lesson math almost almost bend cold distant square ground food recall math math almost recall easy potential giant easy.",
-        "date": ["2023-09-09T10:31:44.126Z", "2023-12-18T10:31:44.134Z"],
+        "dateRange": ["2023-09-09T10:31:44.126Z", "2023-12-18T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-8-topic-0",
                 "name": "Topic 1 - Weather adjective. exception potential exception.",
                 "description": "Food bend easy bend fruit distant square easy food giant math adjective. distant ability distant square almost math fruit shaking.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-09T10:31:44.126Z",
                     "2023-09-21T10:31:44.126Z"
@@ -854,7 +783,6 @@
                 "id": "course-8-topic-1",
                 "name": "Topic 2 - Shaking cold ability distant exception.",
                 "description": "Math distant math ground weather square shaking ground square bend almost math ability giant potential food recall adjective. broken exception giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-21T10:31:44.127Z",
                     "2023-10-07T10:31:44.127Z"
@@ -865,7 +793,6 @@
                 "id": "course-8-topic-2",
                 "name": "Topic 3 - Ground ability distant adjective. math.",
                 "description": "Food exception recall shop lesson potential cold shop potential easy almost forward forward distant shaking ability weather easy potential bend ability ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-07T10:31:44.128Z",
                     "2023-10-21T10:31:44.128Z"
@@ -876,7 +803,6 @@
                 "id": "course-8-topic-3",
                 "name": "Topic 4 - Broken ability broken math giant.",
                 "description": "Ability distant recall giant cold shop shaking adjective. giant cold square giant exception fruit distant lesson potential ground giant lesson exception lesson ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-21T10:31:44.129Z",
                     "2023-10-29T10:31:44.129Z"
@@ -887,7 +813,6 @@
                 "id": "course-8-topic-4",
                 "name": "Topic 5 - Exception distant ground shaking square.",
                 "description": "Weather shaking giant distant cold recall food shaking ground square ability lesson ability weather fruit recall recall giant forward distant food potential adjective. fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-29T10:31:44.130Z",
                     "2023-11-01T10:31:44.130Z"
@@ -898,7 +823,6 @@
                 "id": "course-8-topic-5",
                 "name": "Topic 6 - Recall potential ability recall ground.",
                 "description": "Bend almost fruit cold almost ability forward recall giant almost easy Got broken square shop fruit food shaking easy shop recall exception ability square giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-01T10:31:44.131Z",
                     "2023-11-19T10:31:44.131Z"
@@ -909,7 +833,6 @@
                 "id": "course-8-topic-6",
                 "name": "Topic 7 - Weather distant Got easy broken.",
                 "description": "Almost weather forward almost easy fruit potential math shop lesson shop exception exception fruit shop ability potential adjective. easy Got food distant math bend easy shop.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-19T10:31:44.132Z",
                     "2023-11-27T10:31:44.132Z"
@@ -920,7 +843,6 @@
                 "id": "course-8-topic-7",
                 "name": "Topic 8 - Shop shaking Got fruit broken.",
                 "description": "Distant Got exception shaking broken square bend food exception potential math easy food ability square distant adjective. giant distant recall adjective. easy shop exception shop shop lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-27T10:31:44.133Z",
                     "2023-12-12T10:31:44.133Z"
@@ -931,7 +853,6 @@
                 "id": "course-8-topic-8",
                 "name": "Topic 9 - Adjective. exception adjective. cold shop.",
                 "description": "Potential fruit square broken math food almost Got exception bend lesson square forward forward forward shop ability almost giant math food lesson giant Got recall bend exception recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-12T10:31:44.134Z",
                     "2023-12-18T10:31:44.134Z"
@@ -944,13 +865,12 @@
         "id": "course-9",
         "name": "Giant weather weather.",
         "description": "Broken forward cold broken almost fruit exception weather shop potential bend shaking square potential bend potential bend distant lesson lesson lesson distant shop giant exception shop recall ability distant math shaking shaking adjective. recall math exception easy forward cold recall distant fruit giant broken.",
-        "date": ["2023-09-11T10:31:44.126Z", "2024-02-07T10:31:44.137Z"],
+        "dateRange": ["2023-09-11T10:31:44.126Z", "2024-02-07T10:31:44.137Z"],
         "topics": [
             {
                 "id": "course-9-topic-0",
                 "name": "Topic 1 - Food giant exception ground forward.",
                 "description": "Forward distant food forward math distant food math square ability distant food weather shop ground math cold shop ability shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-11T10:31:44.126Z",
                     "2023-09-28T10:31:44.126Z"
@@ -961,7 +881,6 @@
                 "id": "course-9-topic-1",
                 "name": "Topic 2 - Potential ground almost Got fruit.",
                 "description": "Ground ground adjective. giant forward food easy ground ability ability shaking easy bend square square recall fruit distant broken fruit broken.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-28T10:31:44.127Z",
                     "2023-10-01T10:31:44.127Z"
@@ -972,7 +891,6 @@
                 "id": "course-9-topic-2",
                 "name": "Topic 3 - Lesson broken ground shop forward.",
                 "description": "Exception math recall cold shop broken Got ability weather shop almost easy shaking ability shaking square giant math exception Got cold food.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-01T10:31:44.128Z",
                     "2023-10-21T10:31:44.128Z"
@@ -983,7 +901,6 @@
                 "id": "course-9-topic-3",
                 "name": "Topic 4 - Forward forward adjective. math shop.",
                 "description": "Cold bend giant ground weather food square weather weather square bend math shop bend exception food almost lesson Got forward recall food distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-21T10:31:44.129Z",
                     "2023-11-10T10:31:44.129Z"
@@ -994,7 +911,6 @@
                 "id": "course-9-topic-4",
                 "name": "Topic 5 - Food fruit lesson square exception.",
                 "description": "Giant easy bend bend ability exception square almost almost exception fruit ground bend food potential distant almost forward adjective. fruit ability forward bend potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-10T10:31:44.130Z",
                     "2023-11-25T10:31:44.130Z"
@@ -1005,7 +921,6 @@
                 "id": "course-9-topic-5",
                 "name": "Topic 6 - Broken ground math broken exception.",
                 "description": "Bend fruit exception almost ground square ability ground ability exception almost forward math food bend giant shop adjective. potential giant easy Got shop lesson shop.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-25T10:31:44.131Z",
                     "2023-11-29T10:31:44.131Z"
@@ -1016,7 +931,6 @@
                 "id": "course-9-topic-6",
                 "name": "Topic 7 - Recall shop potential fruit food.",
                 "description": "Forward exception shop distant square shop lesson forward distant potential adjective. shop lesson giant giant math cold giant potential easy almost exception forward ground lesson bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-29T10:31:44.132Z",
                     "2023-12-01T10:31:44.132Z"
@@ -1027,7 +941,6 @@
                 "id": "course-9-topic-7",
                 "name": "Topic 8 - Forward easy ability adjective. math.",
                 "description": "Shop ground fruit broken recall broken almost math giant lesson math easy almost forward potential lesson food Got ground math potential adjective. Got bend distant square distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-01T10:31:44.133Z",
                     "2023-12-22T10:31:44.133Z"
@@ -1038,7 +951,6 @@
                 "id": "course-9-topic-8",
                 "name": "Topic 9 - Broken lesson weather food math.",
                 "description": "Square forward square exception giant fruit math exception forward weather shop fruit distant ability ability easy broken fruit ability food forward forward weather shop food almost giant bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-22T10:31:44.134Z",
                     "2024-01-11T10:31:44.134Z"
@@ -1049,7 +961,6 @@
                 "id": "course-9-topic-9",
                 "name": "Topic 10 - Almost shaking distant food broken.",
                 "description": "Almost easy exception ability bend cold fruit potential Got weather ground square square recall weather potential bend shop ground cold recall food almost ground easy forward broken forward bend.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-11T10:31:44.135Z",
                     "2024-01-21T10:31:44.135Z"
@@ -1060,7 +971,6 @@
                 "id": "course-9-topic-10",
                 "name": "Topic 11 - Cold potential recall cold bend.",
                 "description": "Shop easy math almost food ground square adjective. shaking food forward food shaking potential potential almost square almost fruit cold shaking shaking ground square ground exception almost square ability broken.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-21T10:31:44.136Z",
                     "2024-02-05T10:31:44.136Z"
@@ -1071,7 +981,6 @@
                 "id": "course-9-topic-11",
                 "name": "Topic 12 - Ground forward almost recall weather.",
                 "description": "Easy forward shaking easy easy Got square square potential math ability easy recall lesson forward recall easy broken shaking math Got math easy forward math forward food lesson easy shop weather.",
-                "status": 0,
                 "dateRange": [
                     "2024-02-05T10:31:44.137Z",
                     "2024-02-07T10:31:44.137Z"
@@ -1084,13 +993,12 @@
         "id": "course-10",
         "name": "Square math math.",
         "description": "Distant exception cold forward exception forward bend potential giant ability ground recall food weather giant recall ground easy bend lesson math lesson square weather shop cold food exception cold fruit potential food forward cold lesson lesson broken ground exception ability shaking giant shop giant cold.",
-        "date": ["2023-09-19T10:31:44.126Z", "2024-01-18T10:31:44.137Z"],
+        "dateRange": ["2023-09-19T10:31:44.126Z", "2024-01-18T10:31:44.137Z"],
         "topics": [
             {
                 "id": "course-10-topic-0",
                 "name": "Topic 1 - Cold math lesson exception recall.",
                 "description": "Forward shaking lesson shop weather recall exception almost fruit exception broken bend cold food forward easy cold cold bend Got.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-19T10:31:44.126Z",
                     "2023-09-26T10:31:44.126Z"
@@ -1101,7 +1009,6 @@
                 "id": "course-10-topic-1",
                 "name": "Topic 2 - Ground almost lesson distant recall.",
                 "description": "Recall easy cold food math ground ground recall giant lesson easy ground bend potential food broken distant food forward square ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-26T10:31:44.127Z",
                     "2023-10-10T10:31:44.127Z"
@@ -1112,7 +1019,6 @@
                 "id": "course-10-topic-2",
                 "name": "Topic 3 - Potential potential exception giant shop.",
                 "description": "Cold recall distant cold shaking ground distant exception easy fruit shaking cold forward square weather bend bend ground bend weather square recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-10T10:31:44.128Z",
                     "2023-10-17T10:31:44.128Z"
@@ -1123,7 +1029,6 @@
                 "id": "course-10-topic-3",
                 "name": "Topic 4 - Square bend recall giant bend.",
                 "description": "Weather potential easy math ability shaking giant forward shop shop Got weather distant ground potential ground easy fruit math forward exception giant square.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-17T10:31:44.129Z",
                     "2023-10-28T10:31:44.129Z"
@@ -1134,7 +1039,6 @@
                 "id": "course-10-topic-4",
                 "name": "Topic 5 - Weather exception recall bend lesson.",
                 "description": "Forward forward fruit square distant fruit recall easy broken easy food lesson bend math square square weather bend shaking ground broken fruit bend ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-28T10:31:44.130Z",
                     "2023-11-08T10:31:44.130Z"
@@ -1145,7 +1049,6 @@
                 "id": "course-10-topic-5",
                 "name": "Topic 6 - Ability shaking bend giant weather.",
                 "description": "Potential recall ability cold distant food shop recall food broken lesson square forward potential distant distant exception distant easy bend adjective. math almost potential exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-08T10:31:44.131Z",
                     "2023-11-14T10:31:44.131Z"
@@ -1156,7 +1059,6 @@
                 "id": "course-10-topic-6",
                 "name": "Topic 7 - Easy forward forward shop shaking.",
                 "description": "Shop shaking lesson weather lesson shaking food exception shop exception fruit recall giant fruit potential almost ground shaking Got recall weather fruit square exception easy ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-14T10:31:44.132Z",
                     "2023-11-27T10:31:44.132Z"
@@ -1167,7 +1069,6 @@
                 "id": "course-10-topic-7",
                 "name": "Topic 8 - Easy square shaking food exception.",
                 "description": "Fruit shop bend almost weather easy weather exception broken ability forward broken square adjective. almost lesson ground forward ability forward ground square Got shop distant broken ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-27T10:31:44.133Z",
                     "2023-11-29T10:31:44.133Z"
@@ -1178,7 +1079,6 @@
                 "id": "course-10-topic-8",
                 "name": "Topic 9 - Shaking shop recall potential ability.",
                 "description": "Cold bend food lesson adjective. cold fruit exception ability almost potential potential shaking square math shaking math fruit Got square shop food shop distant shaking ability cold recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-29T10:31:44.134Z",
                     "2023-12-15T10:31:44.134Z"
@@ -1189,7 +1089,6 @@
                 "id": "course-10-topic-9",
                 "name": "Topic 10 - Adjective. cold fruit shop almost.",
                 "description": "Ability cold broken easy potential ground lesson square fruit exception fruit potential bend bend Got ability recall fruit shaking almost Got broken food math Got giant square broken food.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-15T10:31:44.135Z",
                     "2023-12-25T10:31:44.135Z"
@@ -1200,7 +1099,6 @@
                 "id": "course-10-topic-10",
                 "name": "Topic 11 - Ability exception ground food square.",
                 "description": "Recall forward distant easy cold forward shop fruit ability bend bend ability food cold food almost recall almost shaking weather cold recall almost square almost distant shop bend ground forward.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-25T10:31:44.136Z",
                     "2023-12-30T10:31:44.136Z"
@@ -1211,7 +1109,6 @@
                 "id": "course-10-topic-11",
                 "name": "Topic 12 - Math almost giant lesson shaking.",
                 "description": "Ground lesson square fruit weather square almost lesson recall weather ability fruit Got distant food lesson fruit recall cold shop food broken potential shaking recall shaking weather recall cold lesson giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-30T10:31:44.137Z",
                     "2024-01-18T10:31:44.137Z"
@@ -1224,13 +1121,12 @@
         "id": "course-11",
         "name": "Exception shaking ability.",
         "description": "Math potential easy ground shaking forward cold food giant lesson easy easy bend exception shaking potential ground lesson giant lesson ability food exception adjective. almost easy cold ground bend square shop distant food forward ability fruit easy ability cold exception weather math food bend shaking square.",
-        "date": ["2023-09-08T10:31:44.126Z", "2023-12-11T10:31:44.132Z"],
+        "dateRange": ["2023-09-08T10:31:44.126Z", "2023-12-11T10:31:44.132Z"],
         "topics": [
             {
                 "id": "course-11-topic-0",
                 "name": "Topic 1 - Weather almost easy food distant.",
                 "description": "Weather easy square easy forward easy giant cold bend food bend almost almost almost giant square easy shop math weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-08T10:31:44.126Z",
                     "2023-09-25T10:31:44.126Z"
@@ -1241,7 +1137,6 @@
                 "id": "course-11-topic-1",
                 "name": "Topic 2 - Lesson fruit weather bend Got.",
                 "description": "Shaking exception shop shaking fruit shaking cold broken almost lesson forward giant easy lesson ground almost square bend shop cold food.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-25T10:31:44.127Z",
                     "2023-10-07T10:31:44.127Z"
@@ -1252,7 +1147,6 @@
                 "id": "course-11-topic-2",
                 "name": "Topic 3 - Shaking giant potential weather cold.",
                 "description": "Almost lesson Got cold lesson distant math distant ability fruit exception giant almost ground almost ground Got square square square cold giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-07T10:31:44.128Z",
                     "2023-10-27T10:31:44.128Z"
@@ -1263,7 +1157,6 @@
                 "id": "course-11-topic-3",
                 "name": "Topic 4 - Food shop exception fruit bend.",
                 "description": "Math bend adjective. cold forward math fruit recall food square forward easy ground recall bend forward bend broken ground giant easy broken weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-27T10:31:44.129Z",
                     "2023-11-14T10:31:44.129Z"
@@ -1274,7 +1167,6 @@
                 "id": "course-11-topic-4",
                 "name": "Topic 5 - Math potential exception ability lesson.",
                 "description": "Cold ability square exception distant lesson square shaking potential lesson forward cold exception broken easy square broken ability potential shaking weather fruit broken lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-14T10:31:44.130Z",
                     "2023-11-26T10:31:44.130Z"
@@ -1285,7 +1177,6 @@
                 "id": "course-11-topic-5",
                 "name": "Topic 6 - Bend shaking ground adjective. cold.",
                 "description": "Broken adjective. bend math food fruit lesson food shaking exception broken exception fruit forward Got almost almost bend shaking giant shaking lesson fruit almost lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-26T10:31:44.131Z",
                     "2023-12-03T10:31:44.131Z"
@@ -1296,7 +1187,6 @@
                 "id": "course-11-topic-6",
                 "name": "Topic 7 - Broken fruit recall lesson distant.",
                 "description": "Shop food lesson bend food lesson bend shop recall weather almost easy potential ability ground adjective. cold lesson shaking forward ability potential weather broken almost adjective..",
-                "status": 0,
                 "dateRange": [
                     "2023-12-03T10:31:44.132Z",
                     "2023-12-11T10:31:44.132Z"
@@ -1309,13 +1199,12 @@
         "id": "course-12",
         "name": "Forward almost weather.",
         "description": "Math ability square potential exception food exception food cold bend Got giant giant forward food forward recall food square math lesson fruit cold potential lesson ground square lesson square math broken food food broken ground easy potential fruit forward ground shop fruit ability giant weather almost lesson.",
-        "date": ["2023-09-15T10:31:44.126Z", "2024-01-03T10:31:44.134Z"],
+        "dateRange": ["2023-09-15T10:31:44.126Z", "2024-01-03T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-12-topic-0",
                 "name": "Topic 1 - Cold lesson lesson broken shop.",
                 "description": "Forward food cold shop giant Got lesson potential food cold easy bend fruit giant distant ground Got forward shaking shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-15T10:31:44.126Z",
                     "2023-09-26T10:31:44.126Z"
@@ -1326,7 +1215,6 @@
                 "id": "course-12-topic-1",
                 "name": "Topic 2 - Square recall broken potential cold.",
                 "description": "Adjective. broken distant ability potential broken shop ability ability distant exception giant adjective. giant potential ground adjective. lesson adjective. broken fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-26T10:31:44.127Z",
                     "2023-10-01T10:31:44.127Z"
@@ -1337,7 +1225,6 @@
                 "id": "course-12-topic-2",
                 "name": "Topic 3 - Shaking easy easy fruit ground.",
                 "description": "Square food food almost square math lesson almost bend lesson almost forward shop lesson fruit potential recall giant recall giant square shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-01T10:31:44.128Z",
                     "2023-10-19T10:31:44.128Z"
@@ -1348,7 +1235,6 @@
                 "id": "course-12-topic-3",
                 "name": "Topic 4 - Lesson broken shop potential fruit.",
                 "description": "Giant bend broken square shop exception cold potential giant lesson square lesson easy forward cold ability lesson ability shaking cold giant ground potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-19T10:31:44.129Z",
                     "2023-11-03T10:31:44.129Z"
@@ -1359,7 +1245,6 @@
                 "id": "course-12-topic-4",
                 "name": "Topic 5 - Ground food easy ability ability.",
                 "description": "Math math easy lesson distant easy square fruit weather forward almost cold square shop broken easy broken giant bend square bend lesson broken shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-03T10:31:44.130Z",
                     "2023-11-18T10:31:44.130Z"
@@ -1370,7 +1255,6 @@
                 "id": "course-12-topic-5",
                 "name": "Topic 6 - Food broken math shop broken.",
                 "description": "Lesson square almost adjective. square cold weather easy shop adjective. shaking easy ground easy lesson square broken lesson broken ground lesson easy shop potential potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-18T10:31:44.131Z",
                     "2023-11-23T10:31:44.131Z"
@@ -1381,7 +1265,6 @@
                 "id": "course-12-topic-6",
                 "name": "Topic 7 - Exception potential cold bend shaking.",
                 "description": "Giant weather distant distant bend shaking exception fruit forward fruit forward math distant forward shaking bend adjective. weather recall forward math cold recall almost easy giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-23T10:31:44.132Z",
                     "2023-12-06T10:31:44.132Z"
@@ -1392,7 +1275,6 @@
                 "id": "course-12-topic-7",
                 "name": "Topic 8 - Potential distant ground cold Got.",
                 "description": "Easy forward math math fruit lesson shop broken exception easy ability distant recall potential giant broken almost food shaking Got cold square lesson easy square almost bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-06T10:31:44.133Z",
                     "2023-12-23T10:31:44.133Z"
@@ -1403,7 +1285,6 @@
                 "id": "course-12-topic-8",
                 "name": "Topic 9 - Almost shaking cold forward shaking.",
                 "description": "Forward square potential shaking shop cold weather fruit cold ability exception fruit shop ability recall food distant ability broken math easy shop food ground shop forward ground broken.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-23T10:31:44.134Z",
                     "2024-01-03T10:31:44.134Z"
@@ -1416,13 +1297,12 @@
         "id": "course-13",
         "name": "Fruit math ground.",
         "description": "Bend easy easy fruit recall cold Got shaking square recall distant ground cold lesson square ability adjective. recall giant potential fruit cold math ground broken cold bend easy distant weather ground ground almost forward bend broken ground ability lesson weather easy ground broken cold fruit cold square cold.",
-        "date": ["2023-09-02T10:31:44.126Z", "2023-11-14T10:31:44.134Z"],
+        "dateRange": ["2023-09-02T10:31:44.126Z", "2023-11-14T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-13-topic-0",
                 "name": "Topic 1 - Bend shop forward weather ability.",
                 "description": "Giant shaking giant shaking almost almost forward recall weather weather lesson easy shop square broken potential square exception square food.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-02T10:31:44.126Z",
                     "2023-09-18T10:31:44.126Z"
@@ -1433,7 +1313,6 @@
                 "id": "course-13-topic-1",
                 "name": "Topic 2 - Lesson shaking cold giant cold.",
                 "description": "Almost bend recall forward ground ability ground fruit recall shaking exception recall potential weather Got cold cold broken potential lesson ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-18T10:31:44.127Z",
                     "2023-09-24T10:31:44.127Z"
@@ -1444,7 +1323,6 @@
                 "id": "course-13-topic-2",
                 "name": "Topic 3 - Fruit bend lesson ability lesson.",
                 "description": "Food shop adjective. shaking bend almost giant square fruit Got lesson Got almost distant broken distant distant square potential weather potential cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-24T10:31:44.128Z",
                     "2023-09-30T10:31:44.128Z"
@@ -1455,7 +1333,6 @@
                 "id": "course-13-topic-3",
                 "name": "Topic 4 - Math distant distant potential weather.",
                 "description": "Potential math shaking exception bend food almost recall weather distant almost potential broken bend square square fruit cold food potential forward forward square.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-30T10:31:44.129Z",
                     "2023-10-03T10:31:44.129Z"
@@ -1466,7 +1343,6 @@
                 "id": "course-13-topic-4",
                 "name": "Topic 5 - Cold recall food almost lesson.",
                 "description": "Weather distant square potential potential cold square food forward exception food easy shaking giant easy giant easy math square broken square adjective. weather exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-03T10:31:44.130Z",
                     "2023-10-08T10:31:44.130Z"
@@ -1477,7 +1353,6 @@
                 "id": "course-13-topic-5",
                 "name": "Topic 6 - Math broken math shop shop.",
                 "description": "Fruit ability shaking food ground almost distant exception adjective. food math fruit fruit lesson cold ground distant cold almost giant cold ability food Got forward.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-08T10:31:44.131Z",
                     "2023-10-10T10:31:44.131Z"
@@ -1488,7 +1363,6 @@
                 "id": "course-13-topic-6",
                 "name": "Topic 7 - Bend food recall cold giant.",
                 "description": "Bend recall shop adjective. food recall almost math potential distant easy weather weather distant almost giant distant square square ground recall fruit ability shaking math ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-10T10:31:44.132Z",
                     "2023-10-23T10:31:44.132Z"
@@ -1499,7 +1373,6 @@
                 "id": "course-13-topic-7",
                 "name": "Topic 8 - Math exception fruit almost ground.",
                 "description": "Easy recall shaking easy ground shop weather fruit lesson easy easy easy ability shaking shaking recall shop exception distant lesson potential bend ability forward weather fruit recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-23T10:31:44.133Z",
                     "2023-11-01T10:31:44.133Z"
@@ -1510,7 +1383,6 @@
                 "id": "course-13-topic-8",
                 "name": "Topic 9 - Food giant exception ground potential.",
                 "description": "Square potential easy bend weather ground distant fruit easy potential almost recall broken recall distant weather weather math exception forward square distant square weather food bend forward square.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-01T10:31:44.134Z",
                     "2023-11-14T10:31:44.134Z"
@@ -1523,13 +1395,12 @@
         "id": "course-14",
         "name": "Exception shaking weather.",
         "description": "Square ability square cold cold easy Got distant shop square giant easy square broken bend distant bend ability shop shop ability forward easy forward recall forward shaking food distant Got math giant cold potential square giant math almost almost math ground weather recall exception broken potential weather potential recall.",
-        "date": ["2023-09-17T10:31:44.127Z", "2024-01-06T10:31:44.137Z"],
+        "dateRange": ["2023-09-17T10:31:44.127Z", "2024-01-06T10:31:44.137Z"],
         "topics": [
             {
                 "id": "course-14-topic-0",
                 "name": "Topic 1 - Easy shop bend bend distant.",
                 "description": "Fruit exception cold potential giant shaking easy recall ground weather shaking exception ability lesson potential fruit adjective. lesson broken easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-17T10:31:44.127Z",
                     "2023-09-28T10:31:44.127Z"
@@ -1540,7 +1411,6 @@
                 "id": "course-14-topic-1",
                 "name": "Topic 2 - Food math almost exception shop.",
                 "description": "Bend ability food broken easy food food shaking potential fruit Got potential bend giant distant adjective. forward forward shaking giant exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-28T10:31:44.128Z",
                     "2023-10-14T10:31:44.128Z"
@@ -1551,7 +1421,6 @@
                 "id": "course-14-topic-2",
                 "name": "Topic 3 - Bend recall giant distant forward.",
                 "description": "Forward fruit lesson food distant ground giant square ability cold recall exception adjective. recall broken broken fruit bend broken bend ability distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-14T10:31:44.129Z",
                     "2023-10-20T10:31:44.129Z"
@@ -1562,7 +1431,6 @@
                 "id": "course-14-topic-3",
                 "name": "Topic 4 - Lesson bend ground exception distant.",
                 "description": "Broken weather math lesson distant recall almost potential easy shop shaking lesson fruit shaking food bend fruit math exception Got forward fruit lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-20T10:31:44.130Z",
                     "2023-10-25T10:31:44.130Z"
@@ -1573,7 +1441,6 @@
                 "id": "course-14-topic-4",
                 "name": "Topic 5 - Giant adjective. ability easy cold.",
                 "description": "Potential shaking exception shaking distant distant lesson Got ground broken ability weather square lesson ability lesson exception recall math math adjective. bend almost exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-25T10:31:44.131Z",
                     "2023-10-31T10:31:44.131Z"
@@ -1584,7 +1451,6 @@
                 "id": "course-14-topic-5",
                 "name": "Topic 6 - Easy cold giant ability forward.",
                 "description": "Forward bend potential ability potential weather ground food food distant easy exception recall food recall adjective. broken math square easy broken Got recall bend giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-31T10:31:44.132Z",
                     "2023-11-10T10:31:44.132Z"
@@ -1595,7 +1461,6 @@
                 "id": "course-14-topic-6",
                 "name": "Topic 7 - Recall ability exception distant ground.",
                 "description": "Potential distant square adjective. lesson almost bend math shop almost Got shop broken lesson lesson bend ability fruit recall easy almost easy bend shop weather exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-10T10:31:44.133Z",
                     "2023-11-18T10:31:44.133Z"
@@ -1606,7 +1471,6 @@
                 "id": "course-14-topic-7",
                 "name": "Topic 8 - Almost square shop math distant.",
                 "description": "Giant potential adjective. bend shop math adjective. forward shop ground cold square ability math food almost square easy food shaking shaking potential weather weather square broken distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-18T10:31:44.134Z",
                     "2023-11-25T10:31:44.134Z"
@@ -1617,7 +1481,6 @@
                 "id": "course-14-topic-8",
                 "name": "Topic 9 - Math food recall bend math.",
                 "description": "Got ability forward potential fruit ground ability recall ground shaking square exception bend ground square fruit broken square easy bend math math recall lesson distant square recall exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-25T10:31:44.135Z",
                     "2023-12-10T10:31:44.135Z"
@@ -1628,7 +1491,6 @@
                 "id": "course-14-topic-9",
                 "name": "Topic 10 - Shaking forward forward shop ability.",
                 "description": "Ground weather square broken potential shop bend lesson square giant ground forward lesson ability giant adjective. recall giant forward distant fruit distant fruit almost exception distant shaking ability almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-10T10:31:44.136Z",
                     "2023-12-18T10:31:44.136Z"
@@ -1639,7 +1501,6 @@
                 "id": "course-14-topic-10",
                 "name": "Topic 11 - Food distant food forward broken.",
                 "description": "Fruit bend food square easy lesson cold lesson giant adjective. giant square shop fruit adjective. lesson easy math forward ground recall potential weather recall food recall broken shaking giant weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-18T10:31:44.137Z",
                     "2024-01-06T10:31:44.137Z"
@@ -1652,13 +1513,12 @@
         "id": "course-15",
         "name": "Fruit distant potential.",
         "description": "Potential adjective. ability food lesson forward ground weather lesson food ability shop lesson exception cold almost square recall cold giant shaking shaking food adjective. ability ground ability potential adjective. square broken lesson adjective. cold giant shaking cold food fruit distant recall distant shaking math fruit shop recall food ground recall.",
-        "date": ["2023-09-15T10:31:44.127Z", "2024-02-21T10:31:44.138Z"],
+        "dateRange": ["2023-09-15T10:31:44.127Z", "2024-02-21T10:31:44.138Z"],
         "topics": [
             {
                 "id": "course-15-topic-0",
                 "name": "Topic 1 - Got square almost fruit easy.",
                 "description": "Recall shaking ground food ground cold potential easy shaking recall forward exception cold cold fruit shop ability adjective. recall recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-15T10:31:44.127Z",
                     "2023-09-28T10:31:44.127Z"
@@ -1669,7 +1529,6 @@
                 "id": "course-15-topic-1",
                 "name": "Topic 2 - Easy shaking bend forward math.",
                 "description": "Fruit ground distant weather ground shaking Got cold ability broken ability broken distant ground square forward weather almost bend exception lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-28T10:31:44.128Z",
                     "2023-10-15T10:31:44.128Z"
@@ -1680,7 +1539,6 @@
                 "id": "course-15-topic-2",
                 "name": "Topic 3 - Distant broken easy cold easy.",
                 "description": "Weather bend shaking ground forward broken easy easy lesson giant square forward weather recall almost shaking weather shaking exception bend food distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-15T10:31:44.129Z",
                     "2023-10-26T10:31:44.129Z"
@@ -1691,7 +1549,6 @@
                 "id": "course-15-topic-3",
                 "name": "Topic 4 - Adjective. exception exception ability lesson.",
                 "description": "Bend square recall easy lesson almost exception recall cold forward square math square distant distant recall distant ground weather forward exception recall exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-26T10:31:44.130Z",
                     "2023-11-11T10:31:44.130Z"
@@ -1702,7 +1559,6 @@
                 "id": "course-15-topic-4",
                 "name": "Topic 5 - Potential food math weather fruit.",
                 "description": "Giant almost ability broken exception fruit food shop cold giant recall forward ground forward distant distant shop exception cold food ability weather broken broken.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-11T10:31:44.131Z",
                     "2023-11-28T10:31:44.131Z"
@@ -1713,7 +1569,6 @@
                 "id": "course-15-topic-5",
                 "name": "Topic 6 - Got adjective. square potential ground.",
                 "description": "Distant math math ability lesson math shop almost giant fruit bend shaking recall broken potential almost weather recall exception easy shaking ability shop forward shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-28T10:31:44.132Z",
                     "2023-12-09T10:31:44.132Z"
@@ -1724,7 +1579,6 @@
                 "id": "course-15-topic-6",
                 "name": "Topic 7 - Ability fruit fruit shaking cold.",
                 "description": "Adjective. recall giant square square lesson distant exception shaking bend recall distant shop distant shop shaking cold distant giant bend Got square lesson shaking potential potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-09T10:31:44.133Z",
                     "2023-12-18T10:31:44.133Z"
@@ -1735,7 +1589,6 @@
                 "id": "course-15-topic-7",
                 "name": "Topic 8 - Got weather almost easy easy.",
                 "description": "Cold square easy bend lesson exception almost square broken cold bend almost food ground ground food easy lesson cold recall easy weather weather almost broken cold bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-18T10:31:44.134Z",
                     "2024-01-08T10:31:44.134Z"
@@ -1746,7 +1599,6 @@
                 "id": "course-15-topic-8",
                 "name": "Topic 9 - Square lesson math food potential.",
                 "description": "Giant broken adjective. distant forward ability Got ground food exception math bend shop broken bend distant ground food fruit math ground shaking food ground distant ground cold forward.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-08T10:31:44.135Z",
                     "2024-01-11T10:31:44.135Z"
@@ -1757,7 +1609,6 @@
                 "id": "course-15-topic-9",
                 "name": "Topic 10 - Potential almost recall broken recall.",
                 "description": "Broken potential recall cold giant potential fruit ground bend giant easy weather distant bend lesson lesson ground shop fruit giant weather math adjective. math easy distant adjective. broken fruit.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-11T10:31:44.136Z",
                     "2024-01-22T10:31:44.136Z"
@@ -1768,7 +1619,6 @@
                 "id": "course-15-topic-10",
                 "name": "Topic 11 - Fruit exception ability broken Got.",
                 "description": "Weather lesson math food shop shaking ground bend almost bend broken bend giant fruit ability shop shop ground math distant exception adjective. easy cold broken food square bend exception distant.",
-                "status": 0,
                 "dateRange": [
                     "2024-01-22T10:31:44.137Z",
                     "2024-02-08T10:31:44.137Z"
@@ -1779,7 +1629,6 @@
                 "id": "course-15-topic-11",
                 "name": "Topic 12 - Lesson broken fruit lesson exception.",
                 "description": "Exception ability shaking shaking math distant cold ground potential easy almost shaking adjective. square bend potential shaking ability weather exception exception distant math bend weather lesson broken bend square math food.",
-                "status": 0,
                 "dateRange": [
                     "2024-02-08T10:31:44.138Z",
                     "2024-02-21T10:31:44.138Z"
@@ -1792,13 +1641,12 @@
         "id": "course-16",
         "name": "Almost Got recall.",
         "description": "Almost Got shop weather math cold cold broken ability shop shaking cold shaking ability ground shop easy shaking lesson shop shop lesson lesson potential lesson square potential food broken lesson shaking potential square easy easy square broken potential distant distant recall cold easy easy almost cold bend adjective. exception broken fruit.",
-        "date": ["2023-09-04T10:31:44.127Z", "2023-12-04T10:31:44.136Z"],
+        "dateRange": ["2023-09-04T10:31:44.127Z", "2023-12-04T10:31:44.136Z"],
         "topics": [
             {
                 "id": "course-16-topic-0",
                 "name": "Topic 1 - Recall broken recall math shop.",
                 "description": "Bend almost cold broken shop bend giant food shop ability forward cold easy easy math giant potential cold almost shaking.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-04T10:31:44.127Z",
                     "2023-09-06T10:31:44.127Z"
@@ -1809,7 +1657,6 @@
                 "id": "course-16-topic-1",
                 "name": "Topic 2 - Distant giant giant fruit almost.",
                 "description": "Giant potential shop food square giant recall distant shop lesson adjective. exception math ability easy potential food exception distant potential exception.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-06T10:31:44.128Z",
                     "2023-09-09T10:31:44.128Z"
@@ -1820,7 +1667,6 @@
                 "id": "course-16-topic-2",
                 "name": "Topic 3 - Exception giant fruit giant cold.",
                 "description": "Square potential cold food bend broken fruit fruit lesson ability easy math recall Got cold recall giant giant Got adjective. weather almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-09T10:31:44.129Z",
                     "2023-09-29T10:31:44.129Z"
@@ -1831,7 +1677,6 @@
                 "id": "course-16-topic-3",
                 "name": "Topic 4 - Square math math potential shop.",
                 "description": "Potential square fruit shop potential adjective. shaking shop Got almost bend exception ground giant potential math exception forward shop food forward math distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-29T10:31:44.130Z",
                     "2023-10-02T10:31:44.130Z"
@@ -1842,7 +1687,6 @@
                 "id": "course-16-topic-4",
                 "name": "Topic 5 - Shaking math fruit food exception.",
                 "description": "Food easy forward forward square distant potential easy exception easy lesson square almost broken broken food food giant square adjective. potential food ability weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-02T10:31:44.131Z",
                     "2023-10-09T10:31:44.131Z"
@@ -1853,7 +1697,6 @@
                 "id": "course-16-topic-5",
                 "name": "Topic 6 - Easy broken potential almost distant.",
                 "description": "Distant ability giant cold math almost easy exception adjective. distant distant square weather shop easy ability lesson bend almost shop cold fruit easy giant potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-09T10:31:44.132Z",
                     "2023-10-17T10:31:44.132Z"
@@ -1864,7 +1707,6 @@
                 "id": "course-16-topic-6",
                 "name": "Topic 7 - Forward recall recall shop recall.",
                 "description": "Adjective. lesson recall math giant recall cold cold ground ability adjective. adjective. almost almost ground potential distant square math square fruit easy recall fruit giant giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-17T10:31:44.133Z",
                     "2023-10-26T10:31:44.133Z"
@@ -1875,7 +1717,6 @@
                 "id": "course-16-topic-7",
                 "name": "Topic 8 - Fruit easy adjective. forward shop.",
                 "description": "Shaking lesson potential almost potential shop shaking shaking square math fruit ground broken ability recall almost shaking cold exception ground giant math cold math food exception easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-26T10:31:44.134Z",
                     "2023-11-01T10:31:44.134Z"
@@ -1886,7 +1727,6 @@
                 "id": "course-16-topic-8",
                 "name": "Topic 9 - Forward forward bend square exception.",
                 "description": "Potential forward potential food recall forward easy almost exception potential cold distant weather easy ability cold forward broken distant shaking square food cold potential adjective. math broken lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-01T10:31:44.135Z",
                     "2023-11-14T10:31:44.135Z"
@@ -1897,7 +1737,6 @@
                 "id": "course-16-topic-9",
                 "name": "Topic 10 - Adjective. cold forward easy lesson.",
                 "description": "Math food bend shaking giant food potential exception ground ability broken math shaking square food giant ground lesson weather ability recall adjective. exception math weather ground bend potential adjective..",
-                "status": 0,
                 "dateRange": [
                     "2023-11-14T10:31:44.136Z",
                     "2023-12-04T10:31:44.136Z"
@@ -1910,13 +1749,12 @@
         "id": "course-17",
         "name": "Math math fruit.",
         "description": "Potential forward broken potential recall bend almost shaking ability exception ability square distant cold food lesson fruit cold almost exception almost math broken forward shaking giant bend exception shop ability potential easy almost square square math broken shop math ground lesson weather potential food exception potential recall square fruit Got exception recall.",
-        "date": ["2023-08-25T10:31:44.127Z", "2023-12-04T10:31:44.134Z"],
+        "dateRange": ["2023-08-25T10:31:44.127Z", "2023-12-04T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-17-topic-0",
                 "name": "Topic 1 - Potential Got broken distant food.",
                 "description": "Almost broken recall almost distant math potential Got easy forward Got math ability broken lesson forward food Got ground food.",
-                "status": 1,
                 "dateRange": [
                     "2023-08-25T10:31:44.127Z",
                     "2023-09-10T10:31:44.127Z"
@@ -1927,7 +1765,6 @@
                 "id": "course-17-topic-1",
                 "name": "Topic 2 - Potential adjective. fruit forward math.",
                 "description": "Weather exception easy potential weather math weather cold square food weather shaking giant giant ability fruit square lesson almost adjective. bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-10T10:31:44.128Z",
                     "2023-09-26T10:31:44.128Z"
@@ -1938,7 +1775,6 @@
                 "id": "course-17-topic-2",
                 "name": "Topic 3 - Distant weather ground adjective. shop.",
                 "description": "Lesson math almost square shaking cold bend almost potential exception forward shaking shop shop broken easy ability shaking exception bend broken exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-26T10:31:44.129Z",
                     "2023-10-14T10:31:44.129Z"
@@ -1949,7 +1785,6 @@
                 "id": "course-17-topic-3",
                 "name": "Topic 4 - Lesson lesson math square ground.",
                 "description": "Easy ground recall food recall ground square lesson square square broken bend recall cold almost lesson cold math broken almost forward forward math.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-14T10:31:44.130Z",
                     "2023-10-23T10:31:44.130Z"
@@ -1960,7 +1795,6 @@
                 "id": "course-17-topic-4",
                 "name": "Topic 5 - Square broken cold cold adjective..",
                 "description": "Easy ground lesson shop almost potential fruit broken bend fruit broken distant bend ability adjective. easy potential broken forward math shaking forward ground fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-23T10:31:44.131Z",
                     "2023-11-02T10:31:44.131Z"
@@ -1971,7 +1805,6 @@
                 "id": "course-17-topic-5",
                 "name": "Topic 6 - Lesson square exception potential shop.",
                 "description": "Math Got weather ground easy distant broken exception fruit forward potential weather distant distant lesson shop ground almost shaking almost square broken weather almost Got.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-02T10:31:44.132Z",
                     "2023-11-11T10:31:44.132Z"
@@ -1982,7 +1815,6 @@
                 "id": "course-17-topic-6",
                 "name": "Topic 7 - Ground square recall ability potential.",
                 "description": "Bend shop broken shaking food broken ability recall Got weather almost fruit shop ground easy giant adjective. broken forward recall cold almost cold weather exception shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-11T10:31:44.133Z",
                     "2023-12-02T10:31:44.133Z"
@@ -1993,7 +1825,6 @@
                 "id": "course-17-topic-7",
                 "name": "Topic 8 - Ground fruit broken almost giant.",
                 "description": "Adjective. bend math Got shaking square cold easy cold ground cold forward ability math ability exception ground recall forward cold broken broken forward potential bend broken giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-02T10:31:44.134Z",
                     "2023-12-04T10:31:44.134Z"
@@ -2006,13 +1837,12 @@
         "id": "course-18",
         "name": "Distant bend ability.",
         "description": "Almost bend math weather broken potential ground shop distant broken ability math lesson easy shaking almost bend recall shaking broken exception math almost square potential cold easy giant giant potential ground broken giant food weather ground square cold shop shop adjective. potential bend giant square recall cold shop distant ground math lesson distant.",
-        "date": ["2023-09-09T10:31:44.127Z", "2023-11-23T10:31:44.132Z"],
+        "dateRange": ["2023-09-09T10:31:44.127Z", "2023-11-23T10:31:44.132Z"],
         "topics": [
             {
                 "id": "course-18-topic-0",
                 "name": "Topic 1 - Math fruit fruit distant ground.",
                 "description": "Ground broken shaking broken forward lesson square shaking square distant giant forward ability shop recall shaking shop giant broken cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-09T10:31:44.127Z",
                     "2023-09-23T10:31:44.127Z"
@@ -2023,7 +1853,6 @@
                 "id": "course-18-topic-1",
                 "name": "Topic 2 - Ability distant fruit Got easy.",
                 "description": "Ability ground exception food food exception potential ability easy exception distant potential adjective. math adjective. ability shaking weather bend math almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-23T10:31:44.128Z",
                     "2023-10-11T10:31:44.128Z"
@@ -2034,7 +1863,6 @@
                 "id": "course-18-topic-2",
                 "name": "Topic 3 - Shaking forward adjective. Got square.",
                 "description": "Broken shaking food giant giant distant forward shop math ground math lesson weather potential almost forward potential weather cold ability math forward.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-11T10:31:44.129Z",
                     "2023-11-01T10:31:44.129Z"
@@ -2045,7 +1873,6 @@
                 "id": "course-18-topic-3",
                 "name": "Topic 4 - Easy ground ground broken distant.",
                 "description": "Forward math fruit Got almost broken exception shop weather recall bend ground food lesson exception distant cold potential almost fruit giant ability almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-01T10:31:44.130Z",
                     "2023-11-10T10:31:44.130Z"
@@ -2056,7 +1883,6 @@
                 "id": "course-18-topic-4",
                 "name": "Topic 5 - Forward lesson square weather Got.",
                 "description": "Got math shaking easy square giant square fruit giant forward potential food exception square shop square food shop food recall cold lesson potential exception.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-10T10:31:44.131Z",
                     "2023-11-20T10:31:44.131Z"
@@ -2067,7 +1893,6 @@
                 "id": "course-18-topic-5",
                 "name": "Topic 6 - Almost recall exception almost food.",
                 "description": "Ground bend shaking bend bend ability cold adjective. bend lesson exception math square weather bend lesson forward cold square square adjective. easy easy forward forward.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-20T10:31:44.132Z",
                     "2023-11-23T10:31:44.132Z"
@@ -2080,13 +1905,12 @@
         "id": "course-19",
         "name": "Square exception giant.",
         "description": "Potential weather bend forward shaking broken ability broken forward recall exception square forward ability potential recall square recall square ground bend potential broken giant potential recall math adjective. fruit shaking weather exception ability forward distant shaking fruit bend bend distant distant fruit weather broken lesson bend recall giant square recall recall ability Got forward.",
-        "date": ["2023-09-03T10:31:44.127Z", "2023-12-14T10:31:44.136Z"],
+        "dateRange": ["2023-09-03T10:31:44.127Z", "2023-12-14T10:31:44.136Z"],
         "topics": [
             {
                 "id": "course-19-topic-0",
                 "name": "Topic 1 - Bend forward math bend giant.",
                 "description": "Square easy food weather potential fruit potential square distant forward square potential bend square shop distant distant exception broken giant.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-03T10:31:44.127Z",
                     "2023-09-10T10:31:44.127Z"
@@ -2097,7 +1921,6 @@
                 "id": "course-19-topic-1",
                 "name": "Topic 2 - Almost giant recall shaking bend.",
                 "description": "Weather shaking easy shaking shop bend easy weather almost shaking giant shop easy fruit giant ability giant ability math almost fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-10T10:31:44.128Z",
                     "2023-09-28T10:31:44.128Z"
@@ -2108,7 +1931,6 @@
                 "id": "course-19-topic-2",
                 "name": "Topic 3 - Potential easy lesson shop math.",
                 "description": "Broken broken distant recall shop easy ground lesson easy recall lesson ground almost broken weather forward exception ground recall cold recall ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-28T10:31:44.129Z",
                     "2023-10-05T10:31:44.129Z"
@@ -2119,7 +1941,6 @@
                 "id": "course-19-topic-3",
                 "name": "Topic 4 - Recall weather easy lesson exception.",
                 "description": "Food ability square potential easy potential recall shop broken potential giant Got ability Got cold shaking forward square exception recall adjective. food weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-05T10:31:44.130Z",
                     "2023-10-08T10:31:44.130Z"
@@ -2130,7 +1951,6 @@
                 "id": "course-19-topic-4",
                 "name": "Topic 5 - Ground easy ability forward square.",
                 "description": "Forward easy recall forward broken adjective. weather food shaking forward lesson distant weather easy forward Got shaking easy ability shaking potential ground weather food.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-08T10:31:44.131Z",
                     "2023-10-19T10:31:44.131Z"
@@ -2141,7 +1961,6 @@
                 "id": "course-19-topic-5",
                 "name": "Topic 6 - Exception ground food cold ground.",
                 "description": "Square ability potential ground cold adjective. easy fruit distant potential potential shaking math Got exception forward weather lesson lesson recall exception lesson shaking fruit shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-19T10:31:44.132Z",
                     "2023-10-27T10:31:44.132Z"
@@ -2152,7 +1971,6 @@
                 "id": "course-19-topic-6",
                 "name": "Topic 7 - Ability lesson recall food ability.",
                 "description": "Weather ability recall recall food weather cold square shop weather bend distant almost lesson cold potential forward lesson cold shop bend lesson forward adjective. giant math.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-27T10:31:44.133Z",
                     "2023-11-10T10:31:44.133Z"
@@ -2163,7 +1981,6 @@
                 "id": "course-19-topic-7",
                 "name": "Topic 8 - Weather lesson fruit fruit lesson.",
                 "description": "Weather almost math bend easy adjective. almost square potential distant lesson potential distant ground ground lesson bend broken giant almost math fruit weather food cold shop cold.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-10T10:31:44.134Z",
                     "2023-11-21T10:31:44.134Z"
@@ -2174,7 +1991,6 @@
                 "id": "course-19-topic-8",
                 "name": "Topic 9 - Exception ground food food recall.",
                 "description": "Food square fruit food almost lesson math adjective. shop cold fruit giant distant ability cold cold cold Got easy forward bend lesson ability shop lesson exception recall easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-21T10:31:44.135Z",
                     "2023-11-28T10:31:44.135Z"
@@ -2185,7 +2001,6 @@
                 "id": "course-19-topic-9",
                 "name": "Topic 10 - Weather shop easy recall giant.",
                 "description": "Almost forward Got easy easy lesson bend math potential cold math Got shop easy distant square potential broken bend distant shop recall bend square adjective. weather giant easy adjective..",
-                "status": 0,
                 "dateRange": [
                     "2023-11-28T10:31:44.136Z",
                     "2023-12-14T10:31:44.136Z"
@@ -2198,13 +2013,12 @@
         "id": "course-20",
         "name": "Easy math forward.",
         "description": "Lesson weather shaking weather food almost ground ground ability forward bend recall giant giant broken ground bend ability almost food math weather square square cold potential exception recall adjective. lesson ground giant shaking potential easy broken shop square lesson shop cold shop ability square food bend square recall Got potential giant giant ability potential lesson.",
-        "date": ["2023-09-13T10:31:44.127Z", "2023-12-30T10:31:44.135Z"],
+        "dateRange": ["2023-09-13T10:31:44.127Z", "2023-12-30T10:31:44.135Z"],
         "topics": [
             {
                 "id": "course-20-topic-0",
                 "name": "Topic 1 - Weather food easy cold math.",
                 "description": "Fruit bend ability Got almost lesson weather easy square shop math bend math bend shaking weather square distant fruit distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-13T10:31:44.127Z",
                     "2023-10-02T10:31:44.127Z"
@@ -2215,7 +2029,6 @@
                 "id": "course-20-topic-1",
                 "name": "Topic 2 - Bend food food broken shop.",
                 "description": "Giant fruit easy Got food recall lesson fruit exception lesson fruit fruit shop fruit forward food ground lesson bend broken ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-02T10:31:44.128Z",
                     "2023-10-23T10:31:44.128Z"
@@ -2226,7 +2039,6 @@
                 "id": "course-20-topic-2",
                 "name": "Topic 3 - Potential fruit almost distant math.",
                 "description": "Giant shop cold fruit lesson square recall ability broken ability forward giant exception ground cold fruit shaking bend easy ability shop shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-23T10:31:44.129Z",
                     "2023-11-11T10:31:44.129Z"
@@ -2237,7 +2049,6 @@
                 "id": "course-20-topic-3",
                 "name": "Topic 4 - Ability distant giant potential Got.",
                 "description": "Weather ground shaking almost forward adjective. forward cold exception lesson easy giant exception math almost bend ability exception lesson broken shop almost fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-11T10:31:44.130Z",
                     "2023-11-14T10:31:44.130Z"
@@ -2248,7 +2059,6 @@
                 "id": "course-20-topic-4",
                 "name": "Topic 5 - Shaking ground bend math shop.",
                 "description": "Ability potential lesson bend bend almost fruit distant food broken weather easy distant broken shaking shop shaking giant forward forward math recall adjective. ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-14T10:31:44.131Z",
                     "2023-11-22T10:31:44.131Z"
@@ -2259,7 +2069,6 @@
                 "id": "course-20-topic-5",
                 "name": "Topic 6 - Fruit giant food recall giant.",
                 "description": "Ability ground potential math distant broken adjective. easy cold exception adjective. easy distant square cold fruit ground forward ground broken easy forward food exception bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-22T10:31:44.132Z",
                     "2023-12-05T10:31:44.132Z"
@@ -2270,7 +2079,6 @@
                 "id": "course-20-topic-6",
                 "name": "Topic 7 - Distant forward math adjective. ground.",
                 "description": "Shaking weather potential forward shaking weather potential square broken math recall fruit almost forward bend giant ability lesson potential bend ground ability adjective. almost potential broken.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-05T10:31:44.133Z",
                     "2023-12-17T10:31:44.133Z"
@@ -2281,7 +2089,6 @@
                 "id": "course-20-topic-7",
                 "name": "Topic 8 - Ability lesson distant weather easy.",
                 "description": "Bend recall easy fruit food exception recall broken potential potential broken shop adjective. potential broken almost forward weather shaking shop weather math broken broken fruit weather bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-17T10:31:44.134Z",
                     "2023-12-19T10:31:44.134Z"
@@ -2292,7 +2099,6 @@
                 "id": "course-20-topic-8",
                 "name": "Topic 9 - Easy bend shaking forward shaking.",
                 "description": "Square food almost weather lesson almost math adjective. cold easy easy distant forward potential recall ground easy square Got forward giant recall distant ground easy square bend ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-19T10:31:44.135Z",
                     "2023-12-30T10:31:44.135Z"
@@ -2305,13 +2111,12 @@
         "id": "course-21",
         "name": "Ground potential easy.",
         "description": "Bend shaking ability exception broken ability forward recall ground shop potential bend almost shaking distant ground almost bend forward math broken shop square shop giant math broken bend potential exception distant giant math exception ability recall adjective. fruit food giant cold adjective. shop shop ground recall cold shop square math food cold potential shaking easy giant.",
-        "date": ["2023-09-03T10:31:44.127Z", "2023-11-08T10:31:44.134Z"],
+        "dateRange": ["2023-09-03T10:31:44.127Z", "2023-11-08T10:31:44.134Z"],
         "topics": [
             {
                 "id": "course-21-topic-0",
                 "name": "Topic 1 - Weather square exception forward fruit.",
                 "description": "Exception broken weather broken cold shop potential cold shop almost giant distant cold shop almost exception lesson potential almost bend.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-03T10:31:44.127Z",
                     "2023-09-08T10:31:44.127Z"
@@ -2322,7 +2127,6 @@
                 "id": "course-21-topic-1",
                 "name": "Topic 2 - Ability forward giant easy shaking.",
                 "description": "Math food adjective. shop fruit fruit food square exception food weather recall fruit easy math square square shaking potential Got weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-08T10:31:44.128Z",
                     "2023-09-29T10:31:44.128Z"
@@ -2333,7 +2137,6 @@
                 "id": "course-21-topic-2",
                 "name": "Topic 3 - Forward distant ability bend bend.",
                 "description": "Lesson cold shaking almost almost shaking shop potential lesson Got shaking almost ability shop square potential shaking giant broken ground cold bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-29T10:31:44.129Z",
                     "2023-09-30T10:31:44.129Z"
@@ -2344,7 +2147,6 @@
                 "id": "course-21-topic-3",
                 "name": "Topic 4 - Potential shop giant ability lesson.",
                 "description": "Cold bend math potential giant recall forward bend weather bend square Got potential broken ground exception food lesson forward weather giant giant ability.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-30T10:31:44.130Z",
                     "2023-10-10T10:31:44.130Z"
@@ -2355,7 +2157,6 @@
                 "id": "course-21-topic-4",
                 "name": "Topic 5 - Giant math giant potential fruit.",
                 "description": "Ability adjective. forward almost cold potential potential ability ground exception easy distant potential adjective. bend shaking ability lesson almost exception lesson broken adjective. bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-10T10:31:44.131Z",
                     "2023-10-12T10:31:44.131Z"
@@ -2366,7 +2167,6 @@
                 "id": "course-21-topic-5",
                 "name": "Topic 6 - Giant recall forward giant cold.",
                 "description": "Fruit forward shaking lesson shaking square Got recall square lesson math shop potential square math recall potential easy ability potential exception shaking math giant lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-12T10:31:44.132Z",
                     "2023-10-31T10:31:44.132Z"
@@ -2377,7 +2177,6 @@
                 "id": "course-21-topic-6",
                 "name": "Topic 7 - Distant distant giant distant weather.",
                 "description": "Recall food square almost ability shop Got square forward ground potential lesson fruit exception easy math ability square exception shaking bend shop distant adjective. easy math.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-31T10:31:44.133Z",
                     "2023-11-02T10:31:44.133Z"
@@ -2388,7 +2187,6 @@
                 "id": "course-21-topic-7",
                 "name": "Topic 8 - Distant distant shaking shop square.",
                 "description": "Giant almost recall shop shop weather distant ability broken shaking bend potential square cold potential forward broken fruit weather forward exception shaking cold cold exception lesson ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-02T10:31:44.134Z",
                     "2023-11-08T10:31:44.134Z"
@@ -2401,13 +2199,12 @@
         "id": "course-22",
         "name": "Exception forward bend.",
         "description": "Ground potential cold cold math cold weather easy ground shaking almost shaking broken shaking shaking almost broken ground math easy broken shop easy easy recall giant weather bend almost giant lesson exception easy ability distant easy lesson giant lesson cold giant square ground cold distant shop potential weather ability cold weather exception cold lesson fruit shaking weather.",
-        "date": ["2023-09-16T10:31:44.127Z", "2023-12-18T10:31:44.135Z"],
+        "dateRange": ["2023-09-16T10:31:44.127Z", "2023-12-18T10:31:44.135Z"],
         "topics": [
             {
                 "id": "course-22-topic-0",
                 "name": "Topic 1 - Shaking ground weather broken almost.",
                 "description": "Weather ground food cold food forward bend lesson potential easy bend square forward Got exception food exception exception cold math.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-16T10:31:44.127Z",
                     "2023-09-28T10:31:44.127Z"
@@ -2418,7 +2215,6 @@
                 "id": "course-22-topic-1",
                 "name": "Topic 2 - Weather almost lesson distant weather.",
                 "description": "Potential food lesson distant distant bend potential ability shaking square weather potential math shaking ground bend recall weather cold cold bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-28T10:31:44.128Z",
                     "2023-10-19T10:31:44.128Z"
@@ -2429,7 +2225,6 @@
                 "id": "course-22-topic-2",
                 "name": "Topic 3 - Potential Got bend bend lesson.",
                 "description": "Almost square recall food food exception adjective. almost lesson distant food recall potential potential forward giant Got food exception shop square easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-19T10:31:44.129Z",
                     "2023-11-03T10:31:44.129Z"
@@ -2440,7 +2235,6 @@
                 "id": "course-22-topic-3",
                 "name": "Topic 4 - Fruit cold forward recall ground.",
                 "description": "Cold recall exception shaking food weather math recall potential potential ground ability adjective. square recall lesson forward shaking ground potential shop lesson distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-03T10:31:44.130Z",
                     "2023-11-12T10:31:44.130Z"
@@ -2451,7 +2245,6 @@
                 "id": "course-22-topic-4",
                 "name": "Topic 5 - Adjective. lesson cold math distant.",
                 "description": "Shop almost square recall ability giant recall weather recall math exception exception fruit broken giant easy giant square shop forward broken distant distant almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-12T10:31:44.131Z",
                     "2023-11-27T10:31:44.131Z"
@@ -2462,7 +2255,6 @@
                 "id": "course-22-topic-5",
                 "name": "Topic 6 - Lesson forward weather distant math.",
                 "description": "Fruit math math Got easy potential food bend potential potential bend bend shop Got forward easy weather fruit broken bend giant easy math easy shaking.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-27T10:31:44.132Z",
                     "2023-11-30T10:31:44.132Z"
@@ -2473,7 +2265,6 @@
                 "id": "course-22-topic-6",
                 "name": "Topic 7 - Potential recall bend almost weather.",
                 "description": "Giant potential adjective. broken giant food easy giant square ability fruit bend ability broken potential weather giant bend Got exception potential fruit recall shaking almost lesson.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-30T10:31:44.133Z",
                     "2023-12-10T10:31:44.133Z"
@@ -2484,7 +2275,6 @@
                 "id": "course-22-topic-7",
                 "name": "Topic 8 - Ability potential shop exception easy.",
                 "description": "Forward easy shaking food shaking giant bend potential ground distant lesson math cold forward bend potential weather broken adjective. broken math food easy easy bend giant potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-10T10:31:44.134Z",
                     "2023-12-17T10:31:44.134Z"
@@ -2495,7 +2285,6 @@
                 "id": "course-22-topic-8",
                 "name": "Topic 9 - Got bend exception ground shop.",
                 "description": "Distant bend square easy square fruit lesson giant almost bend recall potential cold potential easy weather shaking food broken food easy easy potential almost Got shaking ability distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-17T10:31:44.135Z",
                     "2023-12-18T10:31:44.135Z"
@@ -2508,13 +2297,12 @@
         "id": "course-23",
         "name": "Almost shaking lesson.",
         "description": "Ground cold distant food broken shaking exception ground ground shop bend almost math ground ability weather math square exception fruit square math Got almost food exception exception fruit forward giant easy weather shop fruit broken forward adjective. forward weather giant bend bend almost lesson cold weather exception exception shaking easy almost exception math food math exception broken fruit.",
-        "date": ["2023-08-26T10:31:44.127Z", "2023-12-03T10:31:44.136Z"],
+        "dateRange": ["2023-08-26T10:31:44.127Z", "2023-12-03T10:31:44.136Z"],
         "topics": [
             {
                 "id": "course-23-topic-0",
                 "name": "Topic 1 - Bend ability food almost forward.",
                 "description": "Forward math ability exception shop forward broken square shop exception Got giant math exception ground broken distant exception lesson cold.",
-                "status": 1,
                 "dateRange": [
                     "2023-08-26T10:31:44.127Z",
                     "2023-09-03T10:31:44.127Z"
@@ -2525,7 +2313,6 @@
                 "id": "course-23-topic-1",
                 "name": "Topic 2 - Shop math broken weather bend.",
                 "description": "Broken shaking potential broken almost shaking potential distant math cold easy fruit square giant giant exception ability shop giant bend forward.",
-                "status": 1,
                 "dateRange": [
                     "2023-09-03T10:31:44.128Z",
                     "2023-09-12T10:31:44.128Z"
@@ -2536,7 +2323,6 @@
                 "id": "course-23-topic-2",
                 "name": "Topic 3 - Broken shaking forward shop bend.",
                 "description": "Weather almost ground exception distant cold bend exception ground food bend bend recall square food broken ground recall weather square square giant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-12T10:31:44.129Z",
                     "2023-09-30T10:31:44.129Z"
@@ -2547,7 +2333,6 @@
                 "id": "course-23-topic-3",
                 "name": "Topic 4 - Shaking easy giant distant fruit.",
                 "description": "Shop adjective. easy exception ability exception giant distant square adjective. ground weather giant recall recall math ground broken potential broken cold broken fruit.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-30T10:31:44.130Z",
                     "2023-10-08T10:31:44.130Z"
@@ -2558,7 +2343,6 @@
                 "id": "course-23-topic-4",
                 "name": "Topic 5 - Giant potential ability shaking bend.",
                 "description": "Shop shaking potential math food math easy weather shop exception recall ground fruit giant bend fruit giant fruit giant easy broken lesson giant ground.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-08T10:31:44.131Z",
                     "2023-10-17T10:31:44.131Z"
@@ -2569,7 +2353,6 @@
                 "id": "course-23-topic-5",
                 "name": "Topic 6 - Broken shop ground giant distant.",
                 "description": "Square shaking giant cold fruit adjective. shop bend cold almost recall weather ground almost broken easy lesson lesson giant math shaking ground lesson shaking potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-17T10:31:44.132Z",
                     "2023-10-18T10:31:44.132Z"
@@ -2580,7 +2363,6 @@
                 "id": "course-23-topic-6",
                 "name": "Topic 7 - Lesson ability distant adjective. math.",
                 "description": "Fruit potential ability ground exception fruit fruit forward weather shaking ground broken almost distant weather ground food math square weather ground distant distant weather bend weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-18T10:31:44.133Z",
                     "2023-10-22T10:31:44.133Z"
@@ -2591,7 +2373,6 @@
                 "id": "course-23-topic-7",
                 "name": "Topic 8 - Shaking giant cold food fruit.",
                 "description": "Cold broken cold shop almost cold forward cold giant shop recall lesson cold broken bend giant easy ability ability shaking almost math exception lesson distant cold weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-22T10:31:44.134Z",
                     "2023-11-10T10:31:44.134Z"
@@ -2602,7 +2383,6 @@
                 "id": "course-23-topic-8",
                 "name": "Topic 9 - Giant cold giant forward bend.",
                 "description": "Ability math giant shop recall shaking food potential adjective. food Got math food forward exception bend cold distant lesson almost forward fruit giant cold lesson square distant recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-10T10:31:44.135Z",
                     "2023-11-29T10:31:44.135Z"
@@ -2613,7 +2393,6 @@
                 "id": "course-23-topic-9",
                 "name": "Topic 10 - Fruit math lesson shop recall.",
                 "description": "Forward recall ability easy ability food easy math broken almost cold recall ability ground weather distant fruit forward food distant bend math lesson recall Got math cold potential almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-29T10:31:44.136Z",
                     "2023-12-03T10:31:44.136Z"
@@ -2626,13 +2405,12 @@
         "id": "course-24",
         "name": "Food fruit square.",
         "description": "Shop adjective. cold ability giant lesson weather recall weather broken easy bend square almost potential potential shaking shaking almost ground adjective. weather exception square broken distant shop exception fruit giant potential square potential fruit easy Got forward fruit potential cold recall forward giant recall shop food exception math distant cold broken shop broken fruit easy easy math shop math.",
-        "date": ["2023-08-25T10:31:44.127Z", "2023-12-20T10:31:44.135Z"],
+        "dateRange": ["2023-08-25T10:31:44.127Z", "2023-12-20T10:31:44.135Z"],
         "topics": [
             {
                 "id": "course-24-topic-0",
                 "name": "Topic 1 - Square square fruit bend distant.",
                 "description": "Broken cold ground square shop Got square square fruit potential fruit forward exception weather easy ground potential distant cold fruit.",
-                "status": 1,
                 "dateRange": [
                     "2023-08-25T10:31:44.127Z",
                     "2023-09-11T10:31:44.127Z"
@@ -2643,7 +2421,6 @@
                 "id": "course-24-topic-1",
                 "name": "Topic 2 - Forward square lesson shop adjective..",
                 "description": "Giant weather forward cold ability shop giant ability potential almost exception recall giant bend forward adjective. bend giant forward shaking distant.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-11T10:31:44.128Z",
                     "2023-09-26T10:31:44.128Z"
@@ -2654,7 +2431,6 @@
                 "id": "course-24-topic-2",
                 "name": "Topic 3 - Food bend lesson potential fruit.",
                 "description": "Forward easy math exception cold shaking fruit broken almost ability distant adjective. forward Got cold almost exception distant lesson food potential potential.",
-                "status": 0,
                 "dateRange": [
                     "2023-09-26T10:31:44.129Z",
                     "2023-10-16T10:31:44.129Z"
@@ -2665,7 +2441,6 @@
                 "id": "course-24-topic-3",
                 "name": "Topic 4 - Shaking shaking ability weather square.",
                 "description": "Distant square easy ability broken weather almost shaking easy recall forward potential fruit ground potential shaking broken food lesson ground exception recall weather.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-16T10:31:44.130Z",
                     "2023-10-26T10:31:44.130Z"
@@ -2676,7 +2451,6 @@
                 "id": "course-24-topic-4",
                 "name": "Topic 5 - Got potential fruit food ability.",
                 "description": "Lesson adjective. weather square forward ability cold exception ground bend ground forward giant exception fruit shop broken broken bend exception fruit easy Got bend.",
-                "status": 0,
                 "dateRange": [
                     "2023-10-26T10:31:44.131Z",
                     "2023-11-05T10:31:44.131Z"
@@ -2687,7 +2461,6 @@
                 "id": "course-24-topic-5",
                 "name": "Topic 6 - Shaking broken cold weather fruit.",
                 "description": "Food shop ability shop giant broken ground bend fruit fruit recall ability fruit giant giant square shop ground Got giant recall broken ability exception math.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-05T10:31:44.132Z",
                     "2023-11-11T10:31:44.132Z"
@@ -2698,7 +2471,6 @@
                 "id": "course-24-topic-6",
                 "name": "Topic 7 - Giant ground shop recall shaking.",
                 "description": "Shop distant ability lesson math fruit forward fruit easy ability shaking distant food ability broken shop weather broken giant cold fruit weather distant exception weather recall.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-11T10:31:44.133Z",
                     "2023-11-21T10:31:44.133Z"
@@ -2709,7 +2481,6 @@
                 "id": "course-24-topic-7",
                 "name": "Topic 8 - Ground easy ground potential math.",
                 "description": "Almost ability lesson broken forward bend Got bend Got math giant almost Got ability distant almost weather giant bend distant giant cold math lesson forward shaking easy.",
-                "status": 0,
                 "dateRange": [
                     "2023-11-21T10:31:44.134Z",
                     "2023-12-07T10:31:44.134Z"
@@ -2720,7 +2491,6 @@
                 "id": "course-24-topic-8",
                 "name": "Topic 9 - Food lesson shaking giant giant.",
                 "description": "Cold potential food ability fruit giant broken bend giant Got ground shaking distant math lesson lesson fruit bend math forward broken recall potential shop broken ability square almost.",
-                "status": 0,
                 "dateRange": [
                     "2023-12-07T10:31:44.135Z",
                     "2023-12-20T10:31:44.135Z"

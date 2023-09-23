@@ -12,6 +12,7 @@ import {
     filterTopics,
     getFilterQuery,
 } from 'features/course_details/features/topics_table/store';
+import { formatDate } from 'utils/date-format';
 
 const title = 'Course Topics';
 
@@ -37,6 +38,8 @@ const CourseDetails: FC = () => {
 
     if (!course) return null;
 
+    const dates = course.dateRange.map((d) => formatDate(d));
+
     return (
         <>
             <TextContainer>
@@ -46,6 +49,9 @@ const CourseDetails: FC = () => {
             </TextContainer>
             <DescriptionContainer>
                 <Typography>{course.description}</Typography>
+                <Typography>
+                    The course runs from {dates[0]} to {dates[1]}
+                </Typography>
             </DescriptionContainer>
 
             <Toolbar disableGutters>

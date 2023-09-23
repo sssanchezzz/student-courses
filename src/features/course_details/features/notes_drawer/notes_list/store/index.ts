@@ -7,10 +7,10 @@ import { RootState } from 'store';
 import { call, put, select, takeEvery } from 'redux-saga/effects';
 import { UserTopicNote } from 'types/user_course_topic_note';
 import userNotesService from 'services/user_notes_service';
-import { getUser, getUserId } from 'features/auth/store/login';
-import { User } from 'types/user';
-import { getCourse, getCourseId } from 'features/course_details/store';
-import { Course } from 'types/course';
+import { getUserId } from 'features/auth/store/login';
+import { getCourseId } from 'features/course_details/store';
+import { createNoteSucceeded } from 'features/course_details/features/notes_drawer/notes_input/store';
+import { logoutUserSucceeded } from 'features/auth/store/logout';
 
 type NotesState = {
     notes: UserTopicNote[];
@@ -62,6 +62,15 @@ const notesReducer = (builder: ActionReducerMapBuilder<NotesState>) => {
             };
         })
         .addCase(fetchNotesFailed, (state, action) => {
+            return initialState;
+        })
+        .addCase(createNoteSucceeded, (state, action) => {
+            return {
+                ...state,
+                notes: [...state.notes, action.payload.note],
+            };
+        })
+        .addCase(logoutUserSucceeded, (action, payload) => {
             return initialState;
         });
 };

@@ -5,7 +5,6 @@ import CourseDetailsPage from 'pages/course_details';
 import CoursesPage from 'pages/courses';
 import LoginPage from 'features/auth';
 import { Provider, useSelector } from 'react-redux';
-
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { store } from 'store';
 import { getIsUserLoggedIn } from 'features/auth/store/login';
@@ -40,26 +39,26 @@ function App() {
                 <ThemeProvider theme={theme}>
                     <Nav />
                     <Routes>
-                        <Route path={Paths.Login} element={<LoginPage />} />
+                        <Route path={Paths.Login()} element={<LoginPage />} />
                         <Route
-                            path={Paths.Home}
+                            path={Paths.Home()}
                             element={
-                                <RequireAuth redirectTo={Paths.Login}>
+                                <RequireAuth redirectTo={Paths.Login()}>
                                     <CoursesPage />
                                 </RequireAuth>
                             }
                         />
                         <Route
-                            path={Paths.CourseDetails}
+                            path={Paths.Courses.Details()}
                             element={
-                                <RequireAuth redirectTo={Paths.Login}>
+                                <RequireAuth redirectTo={Paths.Login()}>
                                     <CourseDetailsPage />
                                 </RequireAuth>
                             }
                         />
                         <Route
                             path="*"
-                            element={<Navigate to={Paths.Home} />}
+                            element={<Navigate to={Paths.Home()} />}
                         />
                     </Routes>
                 </ThemeProvider>

@@ -7,6 +7,7 @@ import { RootState } from 'store';
 import { Course } from 'types/course';
 import { call, put, takeEvery } from 'redux-saga/effects';
 import coursesService from 'services/courses_service';
+import { logoutUserSucceeded } from 'features/auth/store/logout';
 type CoursesState = {
     courses: Course[];
     isLoading: boolean;
@@ -65,6 +66,9 @@ const coursesReducer = (builder: ActionReducerMapBuilder<CoursesState>) => {
             };
         })
         .addCase(fetchCoursesFailed, (state, action) => {
+            return initialState;
+        })
+        .addCase(logoutUserSucceeded, (state, action) => {
             return initialState;
         });
 };

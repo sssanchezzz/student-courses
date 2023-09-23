@@ -3281,10 +3281,10 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==
 
-bcryptjs@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
-  integrity sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==
+bcryptjs-react@^2.4.6:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/bcryptjs-react/-/bcryptjs-react-2.4.6.tgz#493be46586f2eaaf17efd142feea617169c26881"
+  integrity sha512-dc9oUX1JwnXoSwIXL6T4p/MxPvu2AHlhmml3vA4mA/z492j3vtJl29jLylYyYtPw3OHii3gGmdNM9kYeq7ZrqA==
 
 bfj@^7.0.2:
   version "7.1.0"

@@ -1,20 +1,16 @@
-import styled from '@emotion/styled';
-import { LinearProgress } from '@mui/material';
 import { FC, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import {
-    fetchCourse,
-    getCourse,
-    getCourseLoading,
-} from 'features/course_details/store';
+import { fetchCourse, getCourseLoading } from 'features/course_details/store';
 import CourseDetails from 'features/course_details';
+import PageContainer from 'components/page_container';
+import Loader from 'components/loader';
 
 const CourseDetailsPage: FC = () => {
     const params = useParams();
     const dispatch = useDispatch();
-    const course = useSelector(getCourse);
     const isLoading = useSelector(getCourseLoading);
+
     useEffect(() => {
         dispatch(fetchCourse(params['id']!));
     }, []);
@@ -22,7 +18,7 @@ const CourseDetailsPage: FC = () => {
     return (
         <>
             {isLoading ? (
-                <LinearProgress />
+                <Loader />
             ) : (
                 <PageContainer>
                     <CourseDetails />
@@ -31,10 +27,5 @@ const CourseDetailsPage: FC = () => {
         </>
     );
 };
-
-const PageContainer = styled.div`
-    width: 80%;
-    margin: 0 auto;
-`;
 
 export default CourseDetailsPage;

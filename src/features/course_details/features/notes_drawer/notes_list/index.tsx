@@ -1,17 +1,13 @@
 import {
-    Button,
     Divider,
     List,
     ListItem,
     ListItemText,
-    Typography,
     styled as styledMUI,
 } from '@mui/material';
-import React, { FC, useState } from 'react';
-import { TextareaAutosize } from '@mui/base/TextareaAutosize';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { FC } from 'react';
+import { useSelector } from 'react-redux';
 import { getNotes } from 'features/course_details/features/notes_drawer/notes_list/store';
-import styled from '@emotion/styled';
 
 const NotesList: FC = () => {
     const notes = useSelector(getNotes);
@@ -32,6 +28,7 @@ const NotesList: FC = () => {
 
 const StyledListItem = styledMUI(ListItem)(({ theme }) => ({
     color: theme.palette.grey[600],
+    padding: 15,
 }));
 
 export default NotesList;

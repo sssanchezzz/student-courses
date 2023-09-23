@@ -9,6 +9,7 @@ import {
     TableBody,
     Chip,
     styled,
+    Tooltip,
 } from '@mui/material';
 import { isBefore } from 'date-fns';
 import {
@@ -18,7 +19,7 @@ import {
     getSortingProperty,
     sortTopics,
 } from 'features/course_details/features/topics_table/store';
-import React, { FC, PropsWithChildren, useState } from 'react';
+import React, { FC, PropsWithChildren } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { CourseTopic, PassedStatus } from 'types/course_topic';
 import { Order } from 'types/order';
@@ -119,26 +120,30 @@ const TopicsTable: FC<Props> = ({ onTopicClick }) => {
                             : PassedStatus.passed;
 
                         return (
-                            <StyledTableRow
+                            <Tooltip
+                                title="Сlick the row to see notes"
                                 key={topic.id}
-                                onClick={() => onTopicClick(topic)}
                             >
-                                <TableCell>{topic.name}</TableCell>
-                                <TableCell>{`${dates[0]} - ${dates[1]}`}</TableCell>
-                                <TableCell>{topic.description}</TableCell>
-                                <TableCell>{topic.type}</TableCell>
-                                <TableCell>
-                                    <Chip
-                                        label={PassedStatus[status]}
-                                        variant="outlined"
-                                        color={
-                                            status === PassedStatus.upcoming
-                                                ? 'success'
-                                                : 'error'
-                                        }
-                                    />
-                                </TableCell>
-                            </StyledTableRow>
+                                <StyledTableRow
+                                    onClick={() => onTopicClick(topic)}
+                                >
+                                    <TableCell>{topic.name}</TableCell>
+                                    <TableCell>{`${dates[0]} - ${dates[1]}`}</TableCell>
+                                    <TableCell>{topic.description}</TableCell>
+                                    <TableCell>{topic.type}</TableCell>
+                                    <TableCell>
+                                        <Chip
+                                            label={PassedStatus[status]}
+                                            variant="outlined"
+                                            color={
+                                                status === PassedStatus.upcoming
+                                                    ? 'success'
+                                                    : 'error'
+                                            }
+                                        />
+                                    </TableCell>
+                                </StyledTableRow>
+                            </Tooltip>
                         );
                     })}
                 </TableBody>

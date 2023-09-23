@@ -2,73 +2,73 @@ import {
     AppBar,
     Box,
     Toolbar,
-    IconButton,
     Button,
     Menu,
     MenuItem,
+    styled as styledMUI,
 } from '@mui/material';
 import React, { FC } from 'react';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import styled from '@emotion/styled';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Paths } from 'constants/paths';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUser } from 'features/auth/store/login';
 import { logoutUser } from 'features/auth/store/logout';
 
 const Nav: FC = () => {
-    const navigate = useNavigate();
     const dispatch = useDispatch();
     const user = useSelector(getUser);
-
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
 
-    const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const handleUserButtonClick = (
+        event: React.MouseEvent<HTMLButtonElement>
+    ) => {
         setAnchorEl(event.currentTarget);
     };
+
     const handleLogoutClick = () => {
         dispatch(logoutUser());
         setAnchorEl(null);
     };
 
-    const handleLogoClick = () => {
-        navigate(Paths.Home);
+    const handleCloseMenu = () => {
+        setAnchorEl(null);
     };
 
-    // if (!user) {
-    //     return null;
-    // }
+    if (!user) {
+        return null;
+    }
 
     return (
         <Box>
             <AppBar>
                 <Toolbar>
-                    <Button sx={{ color: 'white' }} onClick={handleLogoClick}>
-                        Courses
-                    </Button>
+                    <Link to={Paths.Home()}>
+                        <Button sx={{ color: 'white' }}>Courses</Button>
+                    </Link>
                     <MenuItemsContainer>
-                        {user ? (
+                        {user && (
                             <>
-                                <Button
+                                <UserButton
                                     variant="outlined"
-                                    id="basic-button"
+                                    id="user-button"
                                     aria-controls={
                                         open ? 'basic-menu' : undefined
                                     }
                                     aria-haspopup="true"
                                     aria-expanded={open ? 'true' : undefined}
-                                    onClick={handleClick}
+                                    onClick={handleUserButtonClick}
                                 >
                                     {user.name[0] + user.surname[0]}
-                                </Button>
+                                </UserButton>
                                 <Menu
                                     id="basic-menu"
                                     anchorEl={anchorEl}
                                     open={open}
-                                    onClose={handleLogoutClick}
+                                    onClose={handleCloseMenu}
                                     MenuListProps={{
-                                        'aria-labelledby': 'basic-button',
+                                        'aria-labelledby': 'user-button',
                                     }}
                                 >
                                     <MenuItem onClick={handleLogoutClick}>
@@ -76,10 +76,6 @@ const Nav: FC = () => {
                                     </MenuItem>
                                 </Menu>
                             </>
-                        ) : (
-                            <IconButton>
-                                <AccountCircleIcon />
-                            </IconButton>
                         )}
                     </MenuItemsContainer>
                 </Toolbar>
@@ -88,6 +84,10 @@ const Nav: FC = () => {
         </Box>
     );
 };
+
+const UserButton = styledMUI(Button)(({ theme }) => ({
+    color: theme.palette.common.white,
+}));
 
 const MenuItemsContainer = styled.div`
     display: flex;

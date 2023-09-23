@@ -1,12 +1,6 @@
-import {
-    ActionReducerMapBuilder,
-    createAction,
-    createSlice,
-} from '@reduxjs/toolkit';
-import { RootState } from 'store';
-import { all, call, put, takeEvery } from 'redux-saga/effects';
-import usersService from 'services/user_service';
-import { LoginState } from 'features/auth/store/login';
+import { ActionReducerMapBuilder, createAction } from '@reduxjs/toolkit';
+import { put, takeEvery } from 'redux-saga/effects';
+import { AuthState } from 'features/auth/store/login';
 
 // actions
 
@@ -18,7 +12,7 @@ export const logoutUserFailed = createAction('LOGOUT_USER_FAILED');
 
 // reducer
 
-export const logoutReducer = (builder: ActionReducerMapBuilder<LoginState>) => {
+export const logoutReducer = (builder: ActionReducerMapBuilder<AuthState>) => {
     builder
         .addCase(logoutUser, (state, action) => {
             return {
@@ -30,13 +24,12 @@ export const logoutReducer = (builder: ActionReducerMapBuilder<LoginState>) => {
             return {
                 ...state,
                 isLoading: false,
-                user: null,
+                userId: null,
             };
         })
         .addCase(logoutUserFailed, (state, action) => {
             return {
                 ...state,
-                user: null,
                 isLoading: false,
             };
         });

@@ -5,6 +5,6 @@ export type Course = {
     id: string;
     name: string;
     description: string;
-    date: Tuple<Date>;
+    dateRange: Tuple<Date>;
     topics: CourseTopic[];
 };

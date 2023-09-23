@@ -4,23 +4,21 @@ import {
     createSlice,
 } from '@reduxjs/toolkit';
 import { RootState } from 'store';
-import { all, call, put, takeEvery } from 'redux-saga/effects';
+import { call, put, takeEvery } from 'redux-saga/effects';
 import { LoginUser, User } from 'types/user';
 import usersService from 'services/user_service';
 import { logoutReducer } from 'features/auth/store/logout';
 
-export type LoginState = {
-    user: User | null;
+export type AuthState = {
+    userId: User | null;
     isLoading: boolean;
-    errorMessage: string | null;
+    error: boolean;
 };
 
-const initialState: LoginState = {
-    user: localStorage.getItem('user')
-        ? JSON.parse(localStorage.getItem('user')!)
-        : null,
+const initialState: AuthState = {
+    userId: getUserFromLocalStorage(),
     isLoading: false,
-    errorMessage: null,
+    error: false,
 };
 
 // actions
@@ -43,31 +41,26 @@ export const loginUserSucceeded = createAction(
     })
 );
 
-export const loginUserFailed = createAction(
-    'LOGIN_USER_FAILED',
-    (message: string) => ({
-        payload: {
-            message,
-        },
-    })
-);
+export const loginUserFailed = createAction('LOGIN_USER_FAILED');
+
+export const clearLoginError = createAction('CLEAR_LOGIN_ERROR');
 
 // selectors
 
 export const getIsUserLoggedIn = (state: RootState) =>
-    state.login.user !== null;
+    state.auth.userId !== null;
 
-export const getIsLoggingIn = (state: RootState) => state.login.isLoading;
+export const getIsLoggingIn = (state: RootState) => state.auth.isLoading;
 
-export const getUser = (state: RootState) => state.login.user;
+export const getUser = (state: RootState) => state.auth.userId;
 
-export const getUserId = (state: RootState) => state.login.user?.id;
+export const getUserId = (state: RootState) => state.auth.userId?.id;
 
-export const getErrorMessage = (state: RootState) => state.login.errorMessage;
+export const getReceivedLoginError = (state: RootState) => state.auth.error;
 
 // reducer
 
-const loginReducer = (builder: ActionReducerMapBuilder<LoginState>) => {
+const loginReducer = (builder: ActionReducerMapBuilder<AuthState>) => {
     builder
         .addCase(loginUser, (state, action) => {
             return {
@@ -78,15 +71,21 @@ const loginReducer = (builder: ActionReducerMapBuilder<LoginState>) => {
         .addCase(loginUserSucceeded, (state, action) => {
             return {
                 isLoading: false,
-                user: action.payload.user,
-                errorMessage: null,
+                userId: action.payload.user,
+                error: false,
             };
         })
         .addCase(loginUserFailed, (state, action) => {
             return {
-                user: null,
+                userId: null,
                 isLoading: false,
-                errorMessage: action.payload.message,
+                error: true,
+            };
+        })
+        .addCase(clearLoginError, (state, action) => {
+            return {
+                ...state,
+                error: false,
             };
         });
 };
@@ -103,10 +102,8 @@ export function* loginSaga() {
                     action.payload.user
                 );
 
-                if (user === null) {
-                    throw new Error();
-                }
                 localStorage.setItem('user', JSON.stringify(user));
+
                 yield put({
                     type: loginUserSucceeded.type,
                     payload: { user },
@@ -114,7 +111,6 @@ export function* loginSaga() {
             } catch (err) {
                 yield put({
                     type: loginUserFailed.type,
-                    payload: { message: 'Invalid Login or Password' },
                 });
             }
         }
@@ -123,8 +119,8 @@ export function* loginSaga() {
 
 // slice
 
-export const loginSlice = createSlice({
-    name: 'login',
+export const authSlice = createSlice({
+    name: 'auth',
     initialState,
     reducers: {},
     extraReducers: (builder) => {
@@ -132,3 +128,10 @@ export const loginSlice = createSlice({
         logoutReducer(builder);
     },
 });
+
+// helpers
+
+function getUserFromLocalStorage() {
+    const user = localStorage.getItem('user');
+    return user ? JSON.parse(user) : null;
+}

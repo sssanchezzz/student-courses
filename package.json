@@ -16,7 +16,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "bcryptjs": "^2.4.3",
+    "bcryptjs-react": "^2.4.6",
     "date-fns": "^2.30.0",
     "formik": "^2.4.5",
     "react": "^18.2.0",

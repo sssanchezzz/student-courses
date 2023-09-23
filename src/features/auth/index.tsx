@@ -1,20 +1,21 @@
 import styled from '@emotion/styled';
 import {
+    Alert,
     Button,
     LinearProgress,
+    Snackbar,
     TextField,
-    Toolbar,
     Typography,
-    styled as styledMUI,
 } from '@mui/material';
 import { Paths } from 'constants/paths';
 import {
-    getErrorMessage,
+    clearLoginError,
+    getReceivedLoginError,
     getIsLoggingIn,
     getIsUserLoggedIn,
     loginUser,
 } from 'features/auth/store/login';
-import { FormikHelpers, useFormik } from 'formik';
+import { useFormik } from 'formik';
 import React, { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -26,7 +27,7 @@ const LoginPage: FC = () => {
     const initialValues = { login: '', password: '' };
     const isLoggedIn = useSelector(getIsUserLoggedIn);
     const isLoading = useSelector(getIsLoggingIn);
-    const errorMessage = useSelector(getErrorMessage);
+    const loginError = useSelector(getReceivedLoginError);
 
     const validationSchema = yup.object({
         login: yup.string().email().required('Please enter your login'),
@@ -35,21 +36,16 @@ const LoginPage: FC = () => {
 
     useEffect(() => {
         if (isLoggedIn) {
-            navigate(Paths.Home);
+            navigate(Paths.Home());
         }
     }, [isLoggedIn]);
 
-    const handleFormSubmit = (
-        values: {
-            login: string;
-            password: string;
-        },
-        formikHelpers: FormikHelpers<{
-            login: string;
-            password: string;
-        }>
-    ) => {
+    const handleFormSubmit = (values: { login: string; password: string }) => {
         dispatch(loginUser(values));
+    };
+
+    const handleMessageClose = () => {
+        dispatch(clearLoginError());
     };
 
     const formik = useFormik({
@@ -107,7 +103,16 @@ const LoginPage: FC = () => {
                         Login
                     </Button>
                 </form>
-                {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
+
+                <Snackbar
+                    open={loginError}
+                    autoHideDuration={3000}
+                    onClose={handleMessageClose}
+                >
+                    <Alert severity="error" onClose={handleMessageClose}>
+                        Invalid Login or Password
+                    </Alert>
+                </Snackbar>
             </InputContainer>
         </>
     );
@@ -124,9 +129,5 @@ const InputContainer = styled.div`
 const TextInput = styled(TextField)`
     margin: 10px 0;
 `;
-
-const ErrorMessage = styledMUI(Typography)(({ theme }) => ({
-    color: theme.palette.error.main,
-}));
 
 export default LoginPage;

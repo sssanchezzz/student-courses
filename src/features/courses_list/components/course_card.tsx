@@ -12,12 +12,9 @@ import { formatDate } from 'utils/date-format';
 type Props = {
     course: Omit<Course, 'id'>;
 } & React.HTMLAttributes<HTMLDivElement>;
-// type Props = {
-//     course: Course;
-// } & React.HTMLAttributes<HTMLDivElement>;
 
 const CourseCard: FC<Props> = ({ course, ...props }) => {
-    const { name, description, date } = course;
+    const { name, description, dateRange: date } = course;
     const dates = date.map((d) => formatDate(d));
 
     return (

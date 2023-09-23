@@ -4,10 +4,8 @@ import {
     createSlice,
 } from '@reduxjs/toolkit';
 import { getUserId } from 'features/auth/store/login';
-import {
-    getSelectedTopic,
-    getSelectedTopicId,
-} from 'features/course_details/features/notes_drawer/store';
+import { logoutUserSucceeded } from 'features/auth/store/logout';
+import { getSelectedTopicId } from 'features/course_details/features/notes_drawer/store';
 import { getCourseId } from 'features/course_details/store';
 import { call, put, select, takeEvery } from 'redux-saga/effects';
 import userNotesService from 'services/user_notes_service';
@@ -48,7 +46,8 @@ export const createNoteFailed = createAction(
 
 export const getNoteValue = (state: RootState) => state.notes_input.note;
 
-export const isCreatingNote = (state: RootState) => state.notes_input.isLoading;
+export const getIsCreatingNote = (state: RootState) =>
+    state.notes_input.isLoading;
 
 // reducer
 
@@ -82,6 +81,9 @@ const courseDrawerReducer = (
                 note: '',
                 errorMessage: action.payload.errorMessage,
             };
+        })
+        .addCase(logoutUserSucceeded, (action, payload) => {
+            return initialState;
         });
 };
 

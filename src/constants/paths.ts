@@ -1,6 +1,8 @@
 export const Paths = {
-    Home: '/',
-    Login: '/login',
-    Courses: '/courses',
-    CourseDetails: `/courses/:id`,
+    Home: () => '/',
+    Login: () => '/login',
+    Courses: {
+        Main: () => '/courses',
+        Details: (id: string = ':id') => `/courses/${id}`,
+    },
 };

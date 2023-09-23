@@ -1,4 +1,4 @@
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs-react';
 import { LoginUser, User } from 'types/user';
 import users from 'db/users.json';
 
@@ -25,7 +25,7 @@ class UsersService {
                     res(dbUser);
                 }
             }
-            res(null);
+            rej('User not found');
         });
     }
 
